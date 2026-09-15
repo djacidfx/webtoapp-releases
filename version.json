@@ -1,14 +1,15 @@
 {
-    "latestVersion":  "1.1.7",
+    "latestVersion":  "1.1.8",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "\u0026#10003; Gradle Toolchain Upgrade: Upgraded default Gradle wrapper to Gradle 8.7",
-                      "\u0026#10003; Android Gradle Plugin (AGP): Upgraded root AGP plugin to 8.4.2",
-                      "\u0026#10003; Modern IDE Compatibility: Native out-of-the-box support for Java 17 and Java 21 toolchains in Android Studio",
-                      "\u0026#10003; Clean Import Experience: Silences minor version upgrade suggestions in Android Studio"
+                      "Native Linux Desktop Edition: Official WebToApp Studio Pro for Ubuntu/Debian powered by WebKitGTK and Photino.NET",
+                      "Universal Tri-Platform Builder on Linux: Ubuntu users can now package Windows (.exe), Google Play Android Studio, and Ubuntu (.deb) apps",
+                      "Debian Package (.deb) \u0026 Portable Tarball (.tar.gz): 1-click install or portable execution on Ubuntu 20.04/22.04/24.04 and Debian 11/12",
+                      "Cross-Platform Decoupling: WebToExe.Core multi-targeted to net8.0 and net8.0-windows with zero Electron bloat (~1.3 MB package)",
+                      "Unified IPC Bridge: Frontend automatically bridges across WebView2 and Photino message pipelines"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.7/WebToApp-Studio-v1.1.7.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.8/WebToApp-Studio-v1.1.8.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "ad9ba65458754474b5874c627d475b46c930694bed1415a488733a828f546eec"
+    "sha256":  "b8b0a83d9ce0d603ccb7523a74c8ca2cdf3edd3f2b2538896bc0ea5e519441bc"
 }
