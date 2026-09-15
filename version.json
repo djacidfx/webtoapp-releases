@@ -1,14 +1,13 @@
 {
-    "latestVersion":  "1.1.5",
+    "latestVersion":  "1.1.6",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "\u0026#10003; Public Release Portal \u0026 Documentation: Deployed customer-facing README and 10-chapter technical Wiki suite to GitHub",
-                      "\u0026#10003; Android OS Compatibility Guidance: Clarified full backward-compatibility range from Android 7.0 through Android 14+ (96.3%+ global device coverage)",
-                      "\u0026#10003; Google Play Compliance: Guaranteed targetSdk = 34 compliance with Google Play Console requirements",
-                      "\u0026#10003; Automated Documentation Sync: Future releases automatically maintain and publish synchronized release portal documentation"
+                      "\u0026#10003; Android Studio Compatibility: Automatically generates gradle.properties with android.useAndroidX=true",
+                      "\u0026#10003; Jetifier \u0026 Optimizations: Enabled android.enableJetifier=true, nonTransitiveRClass=true, and 2GB JVM allocation",
+                      "\u0026#10003; Seamless Import: Resolves \u0027:app:releaseRuntimeClasspath contains AndroidX dependencies\u0027 sync error in Android Studio"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.5/WebToApp-Studio-v1.1.5.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.6/WebToApp-Studio-v1.1.6.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "5e4eec78118dd4d8d6e6b47fd58ca4c58c9b32e986a8314f77e912a2250fb2a2"
+    "sha256":  "37abcd635cf33b18e58c27b9346f907ddcb666136096e8c713ec5279c158e198"
 }
