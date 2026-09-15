@@ -31,22 +31,27 @@
    * **Commercial Binary Sealing**: HTML/JS/CSS assets can be encrypted with AES-256 and streamed in-memory with zero plaintext files exposed on the user's disk.
    * Multi-resolution `.ico` icon injection, splash screens, system tray minimization, single instance mutex, and full window customization.
 
-2. **:iphone: Google Play Android Apps (`.aab` / `.apk` / Gradle Project)**:
+2. **:department_store: Microsoft Store Packages (`.msix`)**:
+   * **$0 Code Signing Expense**: Microsoft automatically re-signs packages with its trusted root certificate for free upon submission to Partner Center.
+   * **Automated Visual Asset Pipeline**: Renders 5 scaled Store/Start Menu tile assets (`StoreLogo`, `Square150x150`, `Square44x44`, `Wide310x150`, `SplashScreen`).
+   * **1-Click Local Sideload Trust**: Built-in RSA 2048 test cert generator and elevated PowerShell installer for instant local testing.
+
+3. **:iphone: Google Play Android Apps (`.aab` / `.apk` / Gradle Project)**:
    * Turnkey **Android 14 (API 34)** Gradle project ready to import into Android Studio or publish directly to Google Play.
    * **Device Compatibility (`minSdk = 24`)**: Runs on **Android 7.0 through Android 14+** (covering 96.3%+ of all global devices).
    * **Modern WebViewAssetLoader**: Zero-CORS offline static assets served via secure HTTPS scheme.
    * Mobile pull-to-refresh (`SwipeRefreshLayout`), hardware acceleration, screen orientation locking, and Keep-Screen-On (WakeLock).
    * Integrated release signing and step-by-step Google Play publishing guide.
 
-3. **:penguin: Ubuntu Linux Debian Packages (`.deb` / Portable AppDir)**:
+4. **:penguin: Ubuntu Linux Debian Packages (`.deb` / Portable AppDir)**:
    * Pure C# Debian binary compiler -- generates compliant `.deb` installer packages directly on Windows with **zero external dependencies** (no WSL, Docker, or Linux VMs required).
    * Dual deliverables: Installable Debian package (`sudo dpkg -i app.deb`) and standalone portable AppDir (`./run.sh`).
    * WebKitGTK runner with Chromium kiosk fallback and embedded localhost web server with ephemeral session tokens.
 
-4. **:zap: Tri-Platform Multi-Build**:
-   * Build Windows `.exe`, Android Studio ZIP, and Ubuntu `.deb` packages all simultaneously in a single click.
+5. **:zap: Multi-Platform Multi-Build**:
+   * Build Windows `.exe`, Microsoft Store `.msix`, Android Studio ZIP, and Ubuntu `.deb` packages all simultaneously in a single click.
 
-5. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
+6. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
    * Remote version manifests, visual changelog modal, and automated in-app updates with SHA-256 cryptographic verification.
 
 ---
@@ -120,6 +125,35 @@ If **WebToApp Studio Pro** accelerates your workflows and helps you deliver clie
 
 * :coffee: **Buy Me a Coffee**: [buymeacoffee.com/wildcatstudio](https://buymeacoffee.com/wildcatstudio)
 * :heart: **Patreon**: [patreon.com/c/wildcatstudio](https://www.patreon.com/c/wildcatstudio)
+
+---
+
+## :scales: Legal Disclaimer & Acceptable Use Policy
+
+### 1. Important Legal Notice
+**WebToApp Studio Pro** is a software utility developed to help developers, creators, and website owners package **their own** web applications, static websites, and games into native executables for Windows, Android, and Ubuntu Linux.
+
+The author/maintainers of WebToApp Studio Pro do not own, control, host, review, or endorse any third-party websites, applications, assets, or content packaged or distributed by end users of this software.
+
+### 2. Prohibited Uses & Unacceptable Conduct
+By downloading, running, or using WebToApp Studio Pro, you explicitly agree that you will **NOT** use this software to:
+
+* **Impersonate or Phish**: Create applications that impersonate financial institutions, government agencies, social networks, or third-party brands, or engage in credential harvesting, fraud, or social engineering.
+* **Infringe Intellectual Property**: Package, distribute, or monetize websites, web applications, media, games, or trademarks that you do not own or for which you have not obtained explicit written authorization and licensing from the rightful copyright holder.
+* **Distribute Malicious Software**: Package or inject malware, spyware, ransomware, keyloggers, unauthorized tracking scripts, cryptominers, or any code designed to disrupt, damage, or gain unauthorized access to any system or user data.
+* **Bypass Access Controls or Paywalls**: Circumvent authentication mechanisms, digital rights management (DRM), paywalls, or terms of service of third-party platforms.
+* **Violate Platform & Store Policies**: Submit applications to the Microsoft Store, Google Play Store, or Linux package repositories that violate their respective developer distribution agreements, privacy guidelines, or content policies.
+
+### 3. Limitation of Liability & Warranty Disclaimer
+* **"AS-IS" Provision**: This software is provided *"as is"*, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+* **Zero Liability**: In no event shall the authors, copyright holders, or contributors be liable for any claim, damages, legal actions, criminal prosecution, civil liability, loss of data, loss of profits, or regulatory penalties arising from, out of, or in connection with the software, its use, or the packaging and distribution of any third-party applications created with it.
+* **User Indemnification**: The user of this tool assumes 100% full legal responsibility and liability for all applications, packages, domains, and assets generated, signed, or distributed using WebToApp Studio Pro.
+
+### 4. Trademark Attribution
+* "Windows", "Microsoft Store", "WebView2", and "MSIX" are trademarks of Microsoft Corporation.
+* "Android", "Google Play", and "Chromium" are trademarks of Google LLC.
+* "Ubuntu" is a registered trademark of Canonical Ltd.
+* All trademarks, logos, and brand names mentioned are the property of their respective owners and are used strictly for identification and compatibility purposes. Their mention does not imply endorsement or affiliation.
 
 ---
 
