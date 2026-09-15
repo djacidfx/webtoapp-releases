@@ -1,14 +1,16 @@
 {
-    "latestVersion":  "1.0.1",
+    "latestVersion":  "1.1.0",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Official release update for WebToApp Studio Pro v1.0.1",
-                      "Tri-platform export: Windows (.exe), Google Play (Android .aab), and Ubuntu Linux (.deb)",
-                      "Lightweight zero-compiler Windows standalone executables with WebView2",
-                      "High-resolution multi-layer .ico generator \u0026 PE icon injection",
-                      "Built-in 1-Click In-App Auto-Updater engine"
+                      "Enterprise Security Hardening Suite (Author \u0026 Buyer Protection)",
+                      "AES-256 Web Asset Encryption (Zero Plaintext Web Files on Disk)",
+                      "In-Memory Virtual Resource Streaming Engine via app.local",
+                      "Cryptographic Auto-Updater SHA-256 Checksum Verification",
+                      "Anti-Remote Debugging Protection \u0026 External Protocol Whitelisting",
+                      "Android R8/ProGuard Obfuscation \u0026 Network Security Hardening"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.0.1/WebToApp-Studio-v1.0.1.zip",
-    "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases"
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.0/WebToApp-Studio-v1.1.0.zip",
+    "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
+    "sha256":  "6a7bfd9937a38b7735ea0d779291651dc7c41ccc9c98df5a850a7344cbde9a1a"
 }
