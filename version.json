@@ -1,13 +1,13 @@
 {
-    "latestVersion":  "1.1.2",
+    "latestVersion":  "1.1.3",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Commercial UI Binary Sealing: embedded index.html, style.css, and app.js inside WebToExe.Studio.dll",
-                      "In-memory virtual resource streaming for https://studio.local/*",
-                      "Complete elimination of loose UI/ folder on disk for commercial distribution"
+                      "Fixed Documentation links in Help and Support dropdown and About modal",
+                      "Bundled offline user manual docs into release distribution",
+                      "Replaced outdated fallback redirect with official repository guide"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.2/WebToApp-Studio-v1.1.2.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.3/WebToApp-Studio-v1.1.3.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "bd59971973ca87f0d914fb3856b78487300f3f722af020386a72c2f83c09ad61"
+    "sha256":  "7539137a74f0fc7619f92fd64a1dbb4960452c5db6ee7cbc30ed32c618a480f3"
 }
