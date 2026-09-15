@@ -1,13 +1,14 @@
 {
-    "latestVersion":  "1.1.4",
+    "latestVersion":  "1.1.5",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Added direct link in Help \u0026 Support menu to report issues and request features on GitHub",
-                      "Added issue tracker link to About modal",
-                      "Direct routing to djacidfx/webtoapp-releases/issues"
+                      "\u0026#10003; Public Release Portal \u0026 Documentation: Deployed customer-facing README and 10-chapter technical Wiki suite to GitHub",
+                      "\u0026#10003; Android OS Compatibility Guidance: Clarified full backward-compatibility range from Android 7.0 through Android 14+ (96.3%+ global device coverage)",
+                      "\u0026#10003; Google Play Compliance: Guaranteed targetSdk = 34 compliance with Google Play Console requirements",
+                      "\u0026#10003; Automated Documentation Sync: Future releases automatically maintain and publish synchronized release portal documentation"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.4/WebToApp-Studio-v1.1.4.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.5/WebToApp-Studio-v1.1.5.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "f6fb232eef6e9142b8e5544fa259bd81ab87aee5c91f74e47e57bfd6a7f635fd"
+    "sha256":  "5e4eec78118dd4d8d6e6b47fd58ca4c58c9b32e986a8314f77e912a2250fb2a2"
 }
