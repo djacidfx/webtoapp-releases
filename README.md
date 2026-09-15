@@ -1,4 +1,4 @@
-# WebToApp Studio Pro 🚀
+# WebToApp Studio Pro ðŸš€
 
 > **Commercial Cross-Platform Web-to-Desktop & Mobile Packaging Engine**  
 > Turn any Website URL or Local Static HTML5/CSS/JS Folder into Standalone Windows Executables, Google Play Android Apps, and Ubuntu Linux Debian Packages.
@@ -11,46 +11,46 @@
 
 ---
 
-## ⚡ Quick Navigation
+## âš¡ Quick Navigation
 
-* 📥 **[Download Latest Release (v1.1.4)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
-* 📚 **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
-* 🚀 **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
-* 🐛 **[Report an Issue / Request a Feature](https://github.com/djacidfx/webtoapp-releases/issues)**
-* ☕ **[Support on Buy Me a Coffee](https://buymeacoffee.com/wildcatstudio)** | ❤️ **[Support on Patreon](https://www.patreon.com/c/wildcatstudio)**
+* ðŸ“¥ **[Download Latest Release (v1.1.5)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* ðŸ“š **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
+* ðŸš€ **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
+* ðŸ› **[Report an Issue / Request a Feature](https://github.com/djacidfx/webtoapp-releases/issues)**
+* â˜• **[Support on Buy Me a Coffee](https://buymeacoffee.com/wildcatstudio)** | â¤ï¸ **[Support on Patreon](https://www.patreon.com/c/wildcatstudio)**
 
 ---
 
-## 📖 Overview
+## ðŸ“– Overview
 
 **WebToApp Studio Pro** is a high-performance commercial utility designed for web developers, software entrepreneurs, SaaS creators, game developers, and digital agencies. It transforms any **Live Website URL** or **Local Static HTML5/CSS/JS Folder** into standalone, production-ready software across three major operating systems:
 
-1. **🪟 Windows Executables (`.exe`)**:
+1. **ðŸªŸ Windows Executables (`.exe`)**:
    * Powered by **Microsoft Edge WebView2** with ultra-compact resource footprint (~14 MB vs 150MB+ Electron wrappers).
-   * **Virtual HTTPS Host (`https://app.local/`)**: Eliminates `file://` protocol CORS restrictions — Canvas, Web Audio API, IndexedDB, and ES6 modules run seamlessly offline.
+   * **Virtual HTTPS Host (`https://app.local/`)**: Eliminates `file://` protocol CORS restrictions â€” Canvas, Web Audio API, IndexedDB, and ES6 modules run seamlessly offline.
    * **Commercial Binary Sealing**: HTML/JS/CSS assets can be encrypted with AES-256 and streamed in-memory with zero plaintext files exposed on the user's disk.
    * Multi-resolution `.ico` icon injection, splash screens, system tray minimization, single instance mutex, and full window customization.
 
-2. **📱 Google Play Android Apps (`.aab` / `.apk` / Gradle Project)**:
+2. **ðŸ“± Google Play Android Apps (`.aab` / `.apk` / Gradle Project)**:
    * Turnkey **Android 14 (API 34)** Gradle project ready to import into Android Studio or publish directly to Google Play.
    * **Modern WebViewAssetLoader**: Zero-CORS offline static assets served via secure HTTPS scheme.
    * Mobile pull-to-refresh (`SwipeRefreshLayout`), hardware acceleration, screen orientation locking, and Keep-Screen-On (WakeLock).
    * Integrated release signing and step-by-step Google Play publishing guide.
 
-3. **🐧 Ubuntu Linux Debian Packages (`.deb` / Portable AppDir)**:
-   * Pure C# Debian binary compiler — generates compliant `.deb` installer packages directly on Windows with **zero external dependencies** (no WSL, Docker, or Linux VMs required).
+3. **ðŸ§ Ubuntu Linux Debian Packages (`.deb` / Portable AppDir)**:
+   * Pure C# Debian binary compiler â€” generates compliant `.deb` installer packages directly on Windows with **zero external dependencies** (no WSL, Docker, or Linux VMs required).
    * Dual deliverables: Installable Debian package (`sudo dpkg -i app.deb`) and standalone portable AppDir (`./run.sh`).
    * WebKitGTK runner with Chromium kiosk fallback and embedded localhost web server with ephemeral session tokens.
 
-4. **⚡ Tri-Platform Multi-Build**:
+4. **âš¡ Tri-Platform Multi-Build**:
    * Build Windows `.exe`, Android Studio ZIP, and Ubuntu `.deb` packages all simultaneously in a single click.
 
-5. **🔄 1-Click In-App Auto-Updater**:
+5. **ðŸ”„ 1-Click In-App Auto-Updater**:
    * Remote version manifests, visual changelog modal, and automated in-app updates with SHA-256 cryptographic verification.
 
 ---
 
-## 🚀 Quick Start
+## ðŸš€ Quick Start
 
 ### 1. Download & Run
 1. Go to the **[Latest Release](https://github.com/djacidfx/webtoapp-releases/releases/latest)**.
@@ -70,23 +70,23 @@
 
 ---
 
-## 📚 Official Wiki Documentation
+## ðŸ“š Official Wiki Documentation
 
 Comprehensive guides, tutorials, and technical references are hosted in the **[Official Wiki](https://github.com/djacidfx/webtoapp-releases/wiki)**:
 
 | Guide | Description |
 |---|---|
-| 🚀 **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)** | 5-minute setup and packaging walkthrough |
-| 🪟 **[Windows Executable Packaging](https://github.com/djacidfx/webtoapp-releases/wiki/Windows-Executable-Packaging)** | WebView2 engine, virtual HTTPS host, window styling, and tray icons |
-| 📱 **[Android & Google Play Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Android-Google-Play-Publishing)** | AssetLoader, Gradle configuration, permissions, and Google Play submission |
-| 🐧 **[Ubuntu Linux Packaging](https://github.com/djacidfx/webtoapp-releases/wiki/Ubuntu-Linux-Debian-Packaging)** | Pure C# Debian compiler, WebKitGTK runner, and desktop integration |
-| 🛡️ **[Enterprise Security Hardening](https://github.com/djacidfx/webtoapp-releases/wiki/Enterprise-Security-Hardening)** | AES-256 asset encryption, anti-debugging, and memory streaming |
-| 🔄 **[In-App Auto-Updater Setup](https://github.com/djacidfx/webtoapp-releases/wiki/1-Click-Auto-Updater-Guide)** | Manifest configuration, SHA-256 verification, and update deployment |
-| ❓ **[Troubleshooting & FAQ](https://github.com/djacidfx/webtoapp-releases/wiki/Troubleshooting-and-FAQ)** | Solutions for common questions, edge cases, and runtime issues |
+| ðŸš€ **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)** | 5-minute setup and packaging walkthrough |
+| ðŸªŸ **[Windows Executable Packaging](https://github.com/djacidfx/webtoapp-releases/wiki/Windows-Executable-Packaging)** | WebView2 engine, virtual HTTPS host, window styling, and tray icons |
+| ðŸ“± **[Android & Google Play Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Android-Google-Play-Publishing)** | AssetLoader, Gradle configuration, permissions, and Google Play submission |
+| ðŸ§ **[Ubuntu Linux Packaging](https://github.com/djacidfx/webtoapp-releases/wiki/Ubuntu-Linux-Debian-Packaging)** | Pure C# Debian compiler, WebKitGTK runner, and desktop integration |
+| ðŸ›¡ï¸ **[Enterprise Security Hardening](https://github.com/djacidfx/webtoapp-releases/wiki/Enterprise-Security-Hardening)** | AES-256 asset encryption, anti-debugging, and memory streaming |
+| ðŸ”„ **[In-App Auto-Updater Setup](https://github.com/djacidfx/webtoapp-releases/wiki/1-Click-Auto-Updater-Guide)** | Manifest configuration, SHA-256 verification, and update deployment |
+| â“ **[Troubleshooting & FAQ](https://github.com/djacidfx/webtoapp-releases/wiki/Troubleshooting-and-FAQ)** | Solutions for common questions, edge cases, and runtime issues |
 
 ---
 
-## 💻 System Requirements
+## ðŸ’» System Requirements
 
 ### Host Environment (Studio Builder)
 * **Operating System**: Windows 10 (Build 1809+) or Windows 11 (64-bit)
@@ -100,11 +100,11 @@ Comprehensive guides, tutorials, and technical references are hosted in the **[O
 
 ---
 
-## 🐛 Feedback, Bug Reports & Feature Requests
+## ðŸ› Feedback, Bug Reports & Feature Requests
 
 Encountered an issue or have an idea to make WebToApp Studio Pro even better?
 
-* 📝 **[Submit an Issue or Request](https://github.com/djacidfx/webtoapp-releases/issues)**
+* ðŸ“ **[Submit an Issue or Request](https://github.com/djacidfx/webtoapp-releases/issues)**
 * When submitting bugs, please include:
   * Your version number (e.g. `v1.1.4`)
   * Windows OS version
@@ -113,17 +113,17 @@ Encountered an issue or have an idea to make WebToApp Studio Pro even better?
 
 ---
 
-## ☕ Support the Creator
+## â˜• Support the Creator
 
 If **WebToApp Studio Pro** accelerates your workflows and helps you deliver client apps, games, or SaaS wrappers, consider supporting ongoing development:
 
-* ☕ **Buy Me a Coffee**: [buymeacoffee.com/wildcatstudio](https://buymeacoffee.com/wildcatstudio)
-* ❤️ **Patreon**: [patreon.com/c/wildcatstudio](https://www.patreon.com/c/wildcatstudio)
+* â˜• **Buy Me a Coffee**: [buymeacoffee.com/wildcatstudio](https://buymeacoffee.com/wildcatstudio)
+* â¤ï¸ **Patreon**: [patreon.com/c/wildcatstudio](https://www.patreon.com/c/wildcatstudio)
 
 ---
 
-## 📄 Commercial License
+## ðŸ“„ Commercial License
 
 WebToApp Studio Pro is distributed under commercial terms. For licensing details, please refer to the license agreement included with your purchase.
 
-Copyright © 2026 **Wildcat Studio**. All rights reserved.
+Copyright Â© 2026 **Wildcat Studio**. All rights reserved.
