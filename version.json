@@ -1,13 +1,14 @@
 {
-    "latestVersion":  "1.1.6",
+    "latestVersion":  "1.1.7",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "\u0026#10003; Android Studio Compatibility: Automatically generates gradle.properties with android.useAndroidX=true",
-                      "\u0026#10003; Jetifier \u0026 Optimizations: Enabled android.enableJetifier=true, nonTransitiveRClass=true, and 2GB JVM allocation",
-                      "\u0026#10003; Seamless Import: Resolves \u0027:app:releaseRuntimeClasspath contains AndroidX dependencies\u0027 sync error in Android Studio"
+                      "\u0026#10003; Gradle Toolchain Upgrade: Upgraded default Gradle wrapper to Gradle 8.7",
+                      "\u0026#10003; Android Gradle Plugin (AGP): Upgraded root AGP plugin to 8.4.2",
+                      "\u0026#10003; Modern IDE Compatibility: Native out-of-the-box support for Java 17 and Java 21 toolchains in Android Studio",
+                      "\u0026#10003; Clean Import Experience: Silences minor version upgrade suggestions in Android Studio"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.6/WebToApp-Studio-v1.1.6.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.7/WebToApp-Studio-v1.1.7.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "37abcd635cf33b18e58c27b9346f907ddcb666136096e8c713ec5279c158e198"
+    "sha256":  "ad9ba65458754474b5874c627d475b46c930694bed1415a488733a828f546eec"
 }
