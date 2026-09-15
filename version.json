@@ -1,15 +1,15 @@
 {
-    "latestVersion":  "1.1.8",
+    "latestVersion":  "1.1.9",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Native Linux Desktop Edition: Official WebToApp Studio Pro for Ubuntu/Debian powered by WebKitGTK and Photino.NET",
-                      "Universal Tri-Platform Builder on Linux: Ubuntu users can now package Windows (.exe), Google Play Android Studio, and Ubuntu (.deb) apps",
-                      "Debian Package (.deb) \u0026 Portable Tarball (.tar.gz): 1-click install or portable execution on Ubuntu 20.04/22.04/24.04 and Debian 11/12",
-                      "Cross-Platform Decoupling: WebToExe.Core multi-targeted to net8.0 and net8.0-windows with zero Electron bloat (~1.3 MB package)",
-                      "Unified IPC Bridge: Frontend automatically bridges across WebView2 and Photino message pipelines"
+                      "Added Microsoft Store (MSIX) packaging with free zero-cost code signing",
+                      "Added 1-click test certificate installer for local Windows sideloading",
+                      "Added auto-generated 5 scaled Store visual assets and AppxManifest.xml",
+                      "Added Microsoft Store tab and top platform switcher pill",
+                      "Added Microsoft Store support to Multi-Platform Build pipeline"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.8/WebToApp-Studio-v1.1.8.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.9/WebToApp-Studio-v1.1.9.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "b8b0a83d9ce0d603ccb7523a74c8ca2cdf3edd3f2b2538896bc0ea5e519441bc"
+    "sha256":  "c442a433abb47e63d00e72a9fdf5ecad867d71d637a4f612ce0c425e96624090"
 }
