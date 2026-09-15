@@ -3,7 +3,7 @@
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Initial commercial release of WebToApp Studio Pro v1.0.1",
+                      "Official release update for WebToApp Studio Pro v1.0.1",
                       "Tri-platform export: Windows (.exe), Google Play (Android .aab), and Ubuntu Linux (.deb)",
                       "Lightweight zero-compiler Windows standalone executables with WebView2",
                       "High-resolution multi-layer .ico generator \u0026 PE icon injection",
