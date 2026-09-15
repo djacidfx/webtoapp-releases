@@ -1,16 +1,16 @@
 {
-    "latestVersion":  "1.1.0",
+    "latestVersion":  "1.1.1",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Enterprise Security Hardening Suite (Author \u0026 Buyer Protection)",
-                      "AES-256 Web Asset Encryption (Zero Plaintext Web Files on Disk)",
+                      "Dynamic Studio version badge in header",
+                      "Fixed changelog bullet checkmark encoding (\u0026#10003;)",
+                      "Enterprise Security Hardening Suite: AES-256 Web Asset Encryption",
                       "In-Memory Virtual Resource Streaming Engine via app.local",
-                      "Cryptographic Auto-Updater SHA-256 Checksum Verification",
-                      "Anti-Remote Debugging Protection \u0026 External Protocol Whitelisting",
-                      "Android R8/ProGuard Obfuscation \u0026 Network Security Hardening"
+                      "Cryptographic SHA-256 Checksum Verification in Auto-Updater",
+                      "Anti-Remote Debugging \u0026 Android ProGuard/R8 Hardening"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.0/WebToApp-Studio-v1.1.0.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.1/WebToApp-Studio-v1.1.1.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "bef7ba6edc73751999426584facb8bbab37bb2bb30d68c6370c3409cd49871c0"
+    "sha256":  "9cae84253f9d185054603f44f6a7e703a1fc2328677ec74ff9c1253078e037d9"
 }
