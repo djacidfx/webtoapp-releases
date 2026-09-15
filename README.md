@@ -14,8 +14,10 @@
 ## :zap: Quick Navigation
 
 * :package: **[Download Latest Release (v1.1.9)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
 * :rocket: **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
+* :scales: **[Legal Disclaimer & Acceptable Use Policy](#legal-disclaimer)**
 * :beetle: **[Report an Issue / Request a Feature](https://github.com/djacidfx/webtoapp-releases/issues)**
 * :coffee: **[Support on Buy Me a Coffee](https://buymeacoffee.com/wildcatstudio)** | :heart: **[Support on Patreon](https://www.patreon.com/c/wildcatstudio)**
 
@@ -90,6 +92,7 @@ Comprehensive guides, tutorials, and technical references are hosted in the **[O
 | :arrows_counterclockwise: **[In-App Auto-Updater Setup](https://github.com/djacidfx/webtoapp-releases/wiki/1-Click-Auto-Updater-Guide)** | Manifest configuration, SHA-256 verification, and update deployment |
 | :question: **[Troubleshooting & FAQ](https://github.com/djacidfx/webtoapp-releases/wiki/Troubleshooting-and-FAQ)** | Solutions for common questions, edge cases, and runtime issues |
 
+<a id="release-integrity"></a>
 ## :shield: Release Integrity & Anti-Malware Verification
 
 All release binaries are cryptographically signed, SHA-256 hashed, and independently verified clean against **70+ security engines via VirusTotal**:
@@ -138,6 +141,7 @@ If **WebToApp Studio Pro** accelerates your workflows and helps you deliver clie
 
 ---
 
+<a id="legal-disclaimer"></a>
 ## :scales: Legal Disclaimer & Acceptable Use Policy
 
 ### 1. Important Legal Notice
