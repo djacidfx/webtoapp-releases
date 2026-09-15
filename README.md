@@ -17,7 +17,7 @@
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
 * :rocket: **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
-* :scales: **[Legal Disclaimer & Acceptable Use Policy](#legal-disclaimer)**
+* :balance_scale: **[Legal Disclaimer & Acceptable Use Policy](#legal-disclaimer)**
 * :beetle: **[Report an Issue / Request a Feature](https://github.com/djacidfx/webtoapp-releases/issues)**
 * :coffee: **[Support on Buy Me a Coffee](https://buymeacoffee.com/wildcatstudio)** | :heart: **[Support on Patreon](https://www.patreon.com/c/wildcatstudio)**
 
@@ -142,7 +142,7 @@ If **WebToApp Studio Pro** accelerates your workflows and helps you deliver clie
 ---
 
 <a id="legal-disclaimer"></a>
-## :scales: Legal Disclaimer & Acceptable Use Policy
+## :balance_scale: Legal Disclaimer & Acceptable Use Policy
 
 ### 1. Important Legal Notice
 **WebToApp Studio Pro** is a software utility developed to help developers, creators, and website owners package **their own** web applications, static websites, and games into native executables for Windows, Android, and Ubuntu Linux.
