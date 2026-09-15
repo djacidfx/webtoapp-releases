@@ -1,14 +1,10 @@
 {
-  "latestVersion": "1.0.0",
-  "releaseDate": "2026-09-15",
-  "mandatory": false,
-  "changelog": [
-    "Initial commercial release of WebToApp Studio Pro v1.0.0",
-    "Tri-platform export: Windows (.exe), Google Play (Android .aab), and Ubuntu Linux (.deb)",
-    "Lightweight zero-compiler Windows standalone executables with WebView2",
-    "High-resolution multi-layer .ico generator & PE icon injection",
-    "Built-in 1-Click In-App Auto-Updater engine"
-  ],
-  "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.0.0/WebToApp-Studio-v1.0.0.zip",
-  "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases"
+    "latestVersion":  "1.0.1",
+    "releaseDate":  "2026-09-15",
+    "mandatory":  false,
+    "changelog":  [
+                      "added quality of life fixes"
+                  ],
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.0.1/WebToApp-Studio-v1.0.1.zip",
+    "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases"
 }
