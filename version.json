@@ -1,17 +1,17 @@
 {
-    "latestVersion":  "1.3.1",
-    "releaseDate":  "2026-09-16",
-    "mandatory":  false,
-    "changelog":  [
-                      "Welcome \u0026 What\u0027s New startup onboarding dialog with user preference control",
-                      "Quick-access developer resource hub linking documentation, GitHub issue tracking, and community support",
-                      "Built-in SQLite \u0026 Local Database Bridge with native SQLite 3 embedded engine",
-                      "Exposed promise-based window.desktopApp.db API supporting parameterized queries and transactions",
-                      "Security hardening with origin isolation, path traversal defense, and dangerous PRAGMA blocking",
-                      "Studio SQLite tab with schema seed presets (Notes, Key-Value, Users) and JS cheat sheet",
-                      "Updated roadmap, developer guides, and automated test suite"
-                  ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.3.1/WebToApp-Studio-v1.3.1.zip",
-    "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "0f30ad2032d9e083694bbc54c4b78e0a6ded775e9f0962af8d6899560b169a1b"
+    "latestVersion": "1.4.0",
+    "releaseDate": "2026-09-16",
+    "mandatory": false,
+    "changelog": [
+        "Custom Deep-Linking (myapp://) URL protocol registration and IPC engine",
+        "Single-instance named pipe parameter forwarding with zero secondary popups",
+        "Automatic window focus and restoration (Win32 ShowWindow / SetForegroundWindow)",
+        "RFC 3986 scheme compliance and reserved protocol blacklist security hardening",
+        "Frontend JavaScript bridge with window.desktopApp.onDeepLink() and getLaunchUrl()",
+        "Cross-platform protocol packaging: Inno Setup, MSIX AppxManifest, and Linux .desktop XDG",
+        "Studio UI Security & Controls custom deep-linking configuration and JS cheat sheet"
+    ],
+    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.4.0/WebToApp-Studio-v1.4.0.zip",
+    "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
+    "sha256": "55c1bcf541b3278ff656a0ce3da47ec1c635a9ee6fb86d00bdb5b1f92e1bcc8b"
 }
