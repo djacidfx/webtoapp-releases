@@ -7,9 +7,10 @@
                       "Exposed promise-based window.desktopApp.db API supporting parameterized queries and transactions",
                       "Security hardening with origin isolation, path traversal defense, and dangerous PRAGMA blocking",
                       "Studio SQLite tab with schema seed presets (Notes, Key-Value, Users) and JS cheat sheet",
+                      "Welcome \u0026 What\u0027s New startup onboarding modal with user preference control",
                       "Updated roadmap, developer guides, and automated test suite"
                   ],
     "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.3.0/WebToApp-Studio-v1.3.0.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "c015d977c229ef2bfa4d3129b24af78ff51ed05e36aed7efe1cb6acdc6f5ff27"
+    "sha256":  "c7d50e29616aed4588264467b5ed292b8b71372594d0648bc329ee181f0d1a3d"
 }
