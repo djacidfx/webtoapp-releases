@@ -8,6 +8,7 @@
         "Runtime Lockdown: DevTools (F12, Ctrl+Shift+I) and context menus permanently disabled in Release mode",
         "Remote Debugging Neutralization: Automatically strips --remote-debugging-port environment injections",
         "Ahead-of-Time Native Machine Code: ReadyToRun (R2R) compilation with stripped PDBs and debug symbols",
+        "Splash Screen Specifications: Built-in sizing/format guidelines card and dynamic resolution reporter",
         "Studio opens maximized by default across Windows and Linux with preserved restore bounds",
         "Direct database (.sql/.ddl) file importer with file dialog and drag-and-drop loading",
         "Instant schema analysis badge displaying loaded file name, size, line count, and table count",
@@ -15,5 +16,5 @@
     ],
     "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.4.2/WebToApp-Studio-v1.4.2.zip",
     "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "a15bbb113218984f8d7c5432626c15dee65a38d707ebd5dc345666d5a84e494b"
+    "sha256": "e5ecaae183bcc5f12a25aa141fef137fd9a5584ade021e78a16eb5327e181287"
 }
