@@ -13,7 +13,7 @@
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.4.3)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.5.0)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :white_check_mark: **[Complete Feature Checklist & Architecture Capabilities](#feature-checklist)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
@@ -74,7 +74,7 @@
 <a id="feature-checklist"></a>
 ## :white_check_mark: Complete Feature Checklist & Architecture Capabilities
 
-Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.4.3**:
+Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.0**:
 
 ### 1. Dual Source Processing & Asset Pipeline
 - [x] **Website URL Mode**:
@@ -220,6 +220,15 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
   - [x] Multi-step progress drawer with build stages and detailed build log
   - [x] Post-build modal with 1-click "Open Folder" and "Test Run App"
   - [x] Project configuration management (`.wtp` save/load)
+- [x] **Integrated Splash Studio & Visual Brand Builder (v1.5.0)**:
+  - [x] Interactive two-pane design workbench for splash screens (Tab 6 *Splash & Polish* or header button).
+  - [x] **Branded Logo Mode**: Logo scale slider (15%–65%), typography picker, tagline/subtitle, custom text colors, and 6 curated high-contrast background gradients.
+  - [x] **Startup Indicators**: Choice of animated loading bar, accent spinning ring, pulsing dots, or clean minimal presentation with custom brand accent colors.
+  - [x] **Artwork Fitter Mode**: High-resolution image/banner fitter with `Cover`, `Contain`, and `Stretch` aspect ratio options plus matte background color.
+  - [x] **High-DPI Retina Master Canvas**: 960 × 640 (2x Retina) master canvas outputting pixel-perfect 480 × 320 px 24-bit PNG.
+  - [x] **Live Desktop Simulation**: Floating frameless desktop preview with `▶️ Simulate Startup Fade` 1.5s runtime animation.
+  - [x] **1-Click Project Application**: Auto-packages splash graphic, matches window background color, and enables splash screen configuration.
+  - [x] **Standalone PNG Export**: 1-Click export to disk as high-resolution PNG.
 - [x] **Studio Enterprise Security Hardening & Anti-Reverse Engineering (v1.4.3)**:
   - [x] AES-256 encrypted Studio container (`studio.dat`) with in-memory streaming into `https://studio.local/` (zero plaintext HTML/CSS/JS in assembly or on disk)
   - [x] DevTools (`F12`, `Ctrl+Shift+I`) and context menus locked down in Release builds
@@ -250,7 +259,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ### 1. Download & Run
 1. Go to the **[Latest Release](https://github.com/djacidfx/webtoapp-releases/releases/latest)**.
-2. Download the distribution ZIP: `WebToApp-Studio-v1.4.3.zip`.
+2. Download the distribution ZIP: `WebToApp-Studio-v1.5.0.zip`.
 3. Extract the ZIP archive on your Windows machine.
 4. Open the `01-WebToApp-Studio/` directory and double-click **`WebToExe.Studio.exe`**.
 
@@ -287,10 +296,10 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.4.3.zip`**<br><sub>`99ffb4ba5ecdd141822d6ef7591638ce932b14436a341dd98b1ecd4f828467cd`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/99ffb4ba5ecdd141822d6ef7591638ce932b14436a341dd98b1ecd4f828467cd) |
-| **`WebToApp-Studio-v1.4.3-Lightweight.zip`**<br><sub>`abb4aaa91c08105284dd0f1e0f89653e051042676c3f9578d02c4faf4cbeab27`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/abb4aaa91c08105284dd0f1e0f89653e051042676c3f9578d02c4faf4cbeab27) |
-| **`WebToApp-Studio-Pro_1.4.3_amd64.deb`**<br><sub>`ae555a784330df5ee7c09f0b0991f0dad8b58b4c091463889e956f37e8115c30`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/ae555a784330df5ee7c09f0b0991f0dad8b58b4c091463889e956f37e8115c30) |
-| **`WebToApp-Studio-Pro-Linux-x64-v1.4.3-Portable.tar.gz`**<br><sub>`8ae67f1f5d374aa88228d7320880215d075a64f5dc6d9fbc8aee235c0948baae`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/8ae67f1f5d374aa88228d7320880215d075a64f5dc6d9fbc8aee235c0948baae) |
+| **`WebToApp-Studio-v1.5.0.zip`**<br><sub>`9df1ac56eedf8ff15690025573abf0120802632f8915c396ec1d59ece8e0e9cc`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/9df1ac56eedf8ff15690025573abf0120802632f8915c396ec1d59ece8e0e9cc) |
+| **`WebToApp-Studio-v1.5.0-Lightweight.zip`**<br><sub>`35b43c2d65b28e3fb29a0930e3ef4a4178437ad10ab3c85c82df961a966e0887`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/35b43c2d65b28e3fb29a0930e3ef4a4178437ad10ab3c85c82df961a966e0887) |
+| **`WebToApp-Studio-Pro_1.5.0_amd64.deb`**<br><sub>`268d9c5557cbbbdeb8524e97178964172256daa119c18f7eeff855e4ff169097`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/268d9c5557cbbbdeb8524e97178964172256daa119c18f7eeff855e4ff169097) |
+| **`WebToApp-Studio-Pro-Linux-x64-v1.5.0-Portable.tar.gz`**<br><sub>`8a72ef2b9471e38dd36fa19c13d5bbb5439708ef304c7a5f5729a89cf1a599aa`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/8a72ef2b9471e38dd36fa19c13d5bbb5439708ef304c7a5f5729a89cf1a599aa) |
 
 ---
 
@@ -302,16 +311,16 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 * **Architecture**: x64
 
 #### Which Windows Download Should I Choose?
-* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.4.3.zip`) [Recommended]**:  
+* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.0.zip`) [Recommended]**:  
   Completely self-contained with embedded .NET runtime. **Zero installation or runtime dependencies required** — simply extract the zip archive and double-click `WebToExe.Studio.exe` to run immediately on any Windows 10/11 PC without ever seeing a missing .NET runtime prompt!
-* **:feather: Lightweight Edition (`WebToApp-Studio-v1.4.3-Lightweight.zip`)**:  
+* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.0-Lightweight.zip`)**:  
   Ultra-compact download (~33.8 MB). Requires the free [Microsoft .NET Desktop Runtime 8.0 (x64)](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) (Direct installer link: [windowsdesktop-runtime-win-x64.exe](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)).
 
 > [!TIP]
 > **Saw the "You must install or update .NET to run this application" popup?**  
 > If you run the **Lightweight edition** on a computer that does not have .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
 > 1. Click **"Download it now"** in the Windows dialog (or download directly from [Microsoft .NET 8.0 Desktop Runtime x64](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the official Microsoft installer, and then launch `WebToExe.Studio.exe`.
-> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.4.3.zip`), which has zero prerequisites and works out of the box!
+> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.0.zip`), which has zero prerequisites and works out of the box!
 
 ### Target Output Environments
 * **Windows Executables**: Windows 10 / 11 (64-bit) with WebView2 Runtime
