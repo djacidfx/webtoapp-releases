@@ -1,19 +1,19 @@
 {
-    "latestVersion": "1.4.1",
+    "latestVersion": "1.4.2",
     "releaseDate": "2026-09-16",
     "mandatory": false,
     "changelog": [
         "Enterprise Security Hardening: AES-256 encrypted Studio container (studio.dat) with in-memory streaming",
-        "Anti-Debugging & Anti-Tamper Engine: Native Win32 CheckRemoteDebuggerPresent and memory inspection defense",
-        "Runtime Lockdown: DevTools (F12, Ctrl+Shift+I) and context menus disabled in Release mode",
-        "Remote Debugging Port Neutralization: Automatically strips --remote-debugging-port environment injections",
+        "Anti-Debugging & Disassembler Defense: Native Win32 CheckRemoteDebuggerPresent and process memory defense",
+        "Runtime Lockdown: DevTools (F12, Ctrl+Shift+I) and context menus permanently disabled in Release mode",
+        "Remote Debugging Neutralization: Automatically strips --remote-debugging-port environment injections",
+        "Ahead-of-Time Native Machine Code: ReadyToRun (R2R) compilation with stripped PDBs and debug symbols",
         "Studio opens maximized by default across Windows and Linux with preserved restore bounds",
         "Direct database (.sql/.ddl) file importer with file dialog and drag-and-drop loading",
         "Instant schema analysis badge displaying loaded file name, size, line count, and table count",
-        "1-Click .sql schema exporter to download modified database DDL back to disk",
-        "Custom Deep-Linking (myapp://) URL protocol registration and IPC engine"
+        "1-Click .sql schema exporter to download modified database DDL back to disk"
     ],
-    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.4.1/WebToApp-Studio-v1.4.1.zip",
+    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.4.2/WebToApp-Studio-v1.4.2.zip",
     "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "a7f46913f40c6157b04dc29cc34db3d5ecd995c561d84ff73c972b76eef5b8df"
+    "sha256": "a15bbb113218984f8d7c5432626c15dee65a38d707ebd5dc345666d5a84e494b"
 }
