@@ -4,12 +4,12 @@
     "mandatory":  false,
     "changelog":  [
                       "Added Standalone Zero-Install Edition with embedded .NET runtime (zero prerequisites, never shows missing .NET dialog)",
-                      "Added Ultra-Lightweight Edition (2.6 MB) for systems with .NET 8.0 Desktop Runtime pre-installed",
+                      "Added Ultra-Lightweight Edition (1.78 MB) for systems with .NET 8.0 Desktop Runtime pre-installed",
                       "Updated System Requirements and documentation with direct Microsoft runtime links",
                       "Integrated Icon Studio with live multi-platform previews and monogram generator",
                       "Buy Me a Coffee creator support callouts on build results and update center"
                   ],
     "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.2.2/WebToApp-Studio-v1.2.2.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "57b0da3f2692e3ce6551523a6093707f3cc17b252407104bdee00f6fed0675ce"
+    "sha256":  "f9e445c7a54f69dccee8c68b5e1a9a818f42fbdcede0ecdad9a21bc22eceeaec"
 }
