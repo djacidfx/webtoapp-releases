@@ -13,7 +13,7 @@
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.3.1)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.4.0)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
 * :rocket: **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
@@ -55,10 +55,17 @@
    * Promise-based client API at `window.desktopApp.db` supporting parameterized `query()`, `execute()`, and atomic `executeBatch()` transactions.
    * Security hardening: origin isolation (`https://app.local/*`), path traversal protection, and dangerous PRAGMA blocking.
 
-6. **:zap: Multi-Platform Multi-Build**:
+6. **:link: Custom Deep-Linking (`myapp://`) Protocol Engine**:
+   * Cross-platform URL protocol scheme registration (`HKCU\Software\Classes`, Inno Setup, MSIX, and Linux `.desktop`).
+   * Single-instance IPC over named pipes (`WebToApp_IPC_<AppName>`) forwards arguments silently without secondary popups.
+   * Automatic window focus & restoration (`ShowWindow(SW_RESTORE)` & `SetForegroundWindow`).
+   * RFC 3986 scheme validation, reserved scheme blacklist, and argument injection immunity.
+   * Client JavaScript bridge via `window.desktopApp.onDeepLink()` and `getLaunchUrl()`.
+
+7. **:zap: Multi-Platform Multi-Build**:
    * Build Windows `.exe`, Microsoft Store `.msix`, Android Studio ZIP, and Ubuntu `.deb` packages all simultaneously in a single click.
 
-7. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
+8. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
    * Remote version manifests, visual changelog modal, and automated in-app updates with SHA-256 cryptographic verification.
 
 ---
@@ -104,10 +111,10 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.3.1.zip`**<br><sub>`0f30ad2032d9e083694bbc54c4b78e0a6ded775e9f0962af8d6899560b169a1b`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/0f30ad2032d9e083694bbc54c4b78e0a6ded775e9f0962af8d6899560b169a1b) |
-| **`WebToApp-Studio-v1.3.1-Lightweight.zip`**<br><sub>`caf8f0e32941635e637e6b6dcf576d21c8eea90755cb4bdf91087cf41ea48f46`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/caf8f0e32941635e637e6b6dcf576d21c8eea90755cb4bdf91087cf41ea48f46) |
-| **`WebToApp-Studio-Pro_1.3.1_amd64.deb`**<br><sub>`81faa0acb00f9d519758e31eb6a7e274704bcb2ea9f9701b9cf711af3639fe9f`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/81faa0acb00f9d519758e31eb6a7e274704bcb2ea9f9701b9cf711af3639fe9f) |
-| **`WebToApp-Studio-Pro-Linux-x64-v1.3.1-Portable.tar.gz`**<br><sub>`51b2efbf91bf49a72056fc7ac5ed8da4e2f28c3acd054344445b3004cd4986eb`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/51b2efbf91bf49a72056fc7ac5ed8da4e2f28c3acd054344445b3004cd4986eb) |
+| **`WebToApp-Studio-v1.4.0.zip`**<br><sub>`55c1bcf541b3278ff656a0ce3da47ec1c635a9ee6fb86d00bdb5b1f92e1bcc8b`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/55c1bcf541b3278ff656a0ce3da47ec1c635a9ee6fb86d00bdb5b1f92e1bcc8b) |
+| **`WebToApp-Studio-v1.4.0-Lightweight.zip`**<br><sub>`8a9db60bc9dca1f0ec8d5f727697a3d93978bdabaefcea177e2c6c69c9086fbf`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/8a9db60bc9dca1f0ec8d5f727697a3d93978bdabaefcea177e2c6c69c9086fbf) |
+| **`WebToApp-Studio-Pro_1.4.0_amd64.deb`**<br><sub>`cd13417de00eec9346c1c814e6509378ed1afac51b24dc22da734f6716c8d28c`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/cd13417de00eec9346c1c814e6509378ed1afac51b24dc22da734f6716c8d28c) |
+| **`WebToApp-Studio-Pro-Linux-x64-v1.4.0-Portable.tar.gz`**<br><sub>`cbb01c992c960d3943d2b2a53b0b0f2f2ee67d43f57b7c096a6dbcae377cd961`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/cbb01c992c960d3943d2b2a53b0b0f2f2ee67d43f57b7c096a6dbcae377cd961) |
 
 ---
 
