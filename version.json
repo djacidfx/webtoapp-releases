@@ -3,16 +3,17 @@
     "releaseDate": "2026-09-16",
     "mandatory": false,
     "changelog": [
+        "Enterprise Security Hardening: AES-256 encrypted Studio container (studio.dat) with in-memory streaming",
+        "Anti-Debugging & Anti-Tamper Engine: Native Win32 CheckRemoteDebuggerPresent and memory inspection defense",
+        "Runtime Lockdown: DevTools (F12, Ctrl+Shift+I) and context menus disabled in Release mode",
+        "Remote Debugging Port Neutralization: Automatically strips --remote-debugging-port environment injections",
         "Studio opens maximized by default across Windows and Linux with preserved restore bounds",
         "Direct database (.sql/.ddl) file importer with file dialog and drag-and-drop loading",
         "Instant schema analysis badge displaying loaded file name, size, line count, and table count",
         "1-Click .sql schema exporter to download modified database DDL back to disk",
-        "Custom Deep-Linking (myapp://) URL protocol registration and IPC engine",
-        "Single-instance named pipe parameter forwarding with zero secondary popups",
-        "Automatic window focus and restoration (Win32 ShowWindow / SetForegroundWindow)",
-        "RFC 3986 scheme compliance and reserved protocol blacklist security hardening"
+        "Custom Deep-Linking (myapp://) URL protocol registration and IPC engine"
     ],
     "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.4.1/WebToApp-Studio-v1.4.1.zip",
     "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "63adea955464e12b7ef74cd6f8d8753ecd01ddba59ad54ccda765508409cce64"
+    "sha256": "a7f46913f40c6157b04dc29cc34db3d5ecd995c561d84ff73c972b76eef5b8df"
 }
