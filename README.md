@@ -13,7 +13,7 @@
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.2.0)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.2.1)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
 * :rocket: **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
