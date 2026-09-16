@@ -13,7 +13,7 @@
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.4.1)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.4.2)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
 * :rocket: **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
@@ -111,10 +111,10 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.4.1.zip`**<br><sub>`a7f46913f40c6157b04dc29cc34db3d5ecd995c561d84ff73c972b76eef5b8df`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/a7f46913f40c6157b04dc29cc34db3d5ecd995c561d84ff73c972b76eef5b8df) |
-| **`WebToApp-Studio-v1.4.1-Lightweight.zip`**<br><sub>`2cd574d6ff0f79a58372fdd94ab39abace898c47ecdcfa4e1ef00f2bcece0064`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/2cd574d6ff0f79a58372fdd94ab39abace898c47ecdcfa4e1ef00f2bcece0064) |
-| **`WebToApp-Studio-Pro_1.4.1_amd64.deb`**<br><sub>`80de35065b2c6cc9d3b917d2ef25684a1202c02190327f51a1d2c34bf1299744`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/80de35065b2c6cc9d3b917d2ef25684a1202c02190327f51a1d2c34bf1299744) |
-| **`WebToApp-Studio-Pro-Linux-x64-v1.4.1-Portable.tar.gz`**<br><sub>`ebdb17bcea7d3e5be9d689ee99a7472df63dbb48c6347cb9aa5ae530c4cfa4c7`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/ebdb17bcea7d3e5be9d689ee99a7472df63dbb48c6347cb9aa5ae530c4cfa4c7) |
+| **`WebToApp-Studio-v1.4.2.zip`**<br><sub>`a15bbb113218984f8d7c5432626c15dee65a38d707ebd5dc345666d5a84e494b`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/a15bbb113218984f8d7c5432626c15dee65a38d707ebd5dc345666d5a84e494b) |
+| **`WebToApp-Studio-v1.4.2-Lightweight.zip`**<br><sub>`c9cc4e7f3db5fbb3065415c99471e0cfd007bac46d29d4180b0d027f17860537`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/c9cc4e7f3db5fbb3065415c99471e0cfd007bac46d29d4180b0d027f17860537) |
+| **`WebToApp-Studio-Pro_1.4.2_amd64.deb`**<br><sub>`c5087894f269acc0a8573c3e4a8f2c4782c76592765809fe86a556cbd31a8cff`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/c5087894f269acc0a8573c3e4a8f2c4782c76592765809fe86a556cbd31a8cff) |
+| **`WebToApp-Studio-Pro-Linux-x64-v1.4.2-Portable.tar.gz`**<br><sub>`09ca291e9483911f14e25117f23b9ccb6e4d7fd234abdc2f47e33ffb28cf5993`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/09ca291e9483911f14e25117f23b9ccb6e4d7fd234abdc2f47e33ffb28cf5993) |
 
 ---
 
@@ -126,16 +126,16 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 * **Architecture**: x64
 
 #### Which Windows Download Should I Choose?
-* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.4.1.zip`) [Recommended]**:  
+* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.4.2.zip`) [Recommended]**:  
   Completely self-contained with embedded .NET runtime. **Zero installation or runtime dependencies required** — simply extract the zip archive and double-click `WebToExe.Studio.exe` to run immediately on any Windows 10/11 PC without ever seeing a missing .NET runtime prompt!
-* **:feather: Lightweight Edition (`WebToApp-Studio-v1.4.1-Lightweight.zip`)**:  
-  Ultra-compact download (~2.6 MB). Requires the free [Microsoft .NET Desktop Runtime 8.0 (x64)](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) (Direct installer link: [windowsdesktop-runtime-win-x64.exe](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)).
+* **:feather: Lightweight Edition (`WebToApp-Studio-v1.4.2-Lightweight.zip`)**:  
+  Ultra-compact download (~33.8 MB). Requires the free [Microsoft .NET Desktop Runtime 8.0 (x64)](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) (Direct installer link: [windowsdesktop-runtime-win-x64.exe](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)).
 
 > [!TIP]
 > **Saw the "You must install or update .NET to run this application" popup?**  
 > If you run the **Lightweight edition** on a computer that does not have .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
 > 1. Click **"Download it now"** in the Windows dialog (or download directly from [Microsoft .NET 8.0 Desktop Runtime x64](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the official Microsoft installer, and then launch `WebToExe.Studio.exe`.
-> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.2.2.zip`), which has zero prerequisites and works out of the box!
+> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.4.2.zip`), which has zero prerequisites and works out of the box!
 
 ### Target Output Environments
 * **Windows Executables**: Windows 10 / 11 (64-bit) with WebView2 Runtime
