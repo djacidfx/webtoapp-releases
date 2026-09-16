@@ -1,14 +1,15 @@
 {
-    "latestVersion":  "1.2.0",
+    "latestVersion":  "1.2.1",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Added Integrated Icon Studio with live multi-platform previews and monogram generator",
-                      "Added automated multi-platform icon suite compiler (.ico, Android mipmaps, Store tiles, Linux hicolor, Web favicons)",
-                      "Added Buy Me a Coffee creator support callouts on build results and update center",
-                      "Performance and visual polish improvements across Windows, Android, and Ubuntu packages"
+                      "Hotfix: Fixed Icon Studio modal launch and dialog visibility",
+                      "Integrated Icon Studio with live multi-platform previews and monogram generator",
+                      "Automated multi-platform icon suite compiler (.ico, Android mipmaps, Store tiles, Linux hicolor, Web favicons)",
+                      "Buy Me a Coffee creator support callouts on build results and update center",
+                      "Comprehensive automated VirusTotal 70+ security verification"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.2.0/WebToApp-Studio-v1.2.0.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.2.1/WebToApp-Studio-v1.2.1.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "97b1449f12c3492a70a746d148c6e04d5d25fb12ca6d3eba49dad0210ba2ba21"
+    "sha256":  "d71db06941b375bca4205ec28a058dc79e4050eedbfb0ca6ca76f8ede7d3bae2"
 }
