@@ -1,15 +1,15 @@
 {
-    "latestVersion": "1.2.2",
-    "releaseDate": "2026-09-15",
-    "mandatory": false,
-    "changelog": [
-        "Added Standalone Zero-Install Edition with embedded .NET runtime (zero prerequisites, never shows missing .NET dialog)",
-        "Added Ultra-Lightweight Edition (1.78 MB) for systems with .NET 8.0 Desktop Runtime pre-installed",
-        "Updated System Requirements and documentation with direct Microsoft runtime links",
-        "Integrated Icon Studio with live multi-platform previews and monogram generator",
-        "Buy Me a Coffee creator support callouts on build results and update center"
-    ],
-    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.2.2/WebToApp-Studio-v1.2.2.zip",
-    "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "12709efb9cae59bc09a29ae5bad4747dddc0dfec571fc4ac75ecbfca794a1152"
+    "latestVersion":  "1.3.0",
+    "releaseDate":  "2026-09-16",
+    "mandatory":  false,
+    "changelog":  [
+                      "Built-in SQLite \u0026 Local Database Bridge with native SQLite 3 embedded engine",
+                      "Exposed promise-based window.desktopApp.db API supporting parameterized queries and transactions",
+                      "Security hardening with origin isolation, path traversal defense, and dangerous PRAGMA blocking",
+                      "Studio SQLite tab with schema seed presets (Notes, Key-Value, Users) and JS cheat sheet",
+                      "Updated roadmap, developer guides, and automated test suite"
+                  ],
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.3.0/WebToApp-Studio-v1.3.0.zip",
+    "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
+    "sha256":  "c015d977c229ef2bfa4d3129b24af78ff51ed05e36aed7efe1cb6acdc6f5ff27"
 }
