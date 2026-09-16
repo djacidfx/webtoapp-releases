@@ -13,7 +13,7 @@
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.2.2)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.3.0)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
 * :rocket: **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
@@ -50,10 +50,15 @@
    * Dual deliverables: Installable Debian package (`sudo dpkg -i app.deb`) and standalone portable AppDir (`./run.sh`).
    * WebKitGTK runner with Chromium kiosk fallback and embedded localhost web server with ephemeral session tokens.
 
-5. **:zap: Multi-Platform Multi-Build**:
+5. **:card_file_box: Built-in SQLite & Local Database Bridge**:
+   * Embedded native SQLite 3 engine (`Microsoft.Data.Sqlite`) with zero native driver dependencies.
+   * Promise-based client API at `window.desktopApp.db` supporting parameterized `query()`, `execute()`, and atomic `executeBatch()` transactions.
+   * Security hardening: origin isolation (`https://app.local/*`), path traversal protection, and dangerous PRAGMA blocking.
+
+6. **:zap: Multi-Platform Multi-Build**:
    * Build Windows `.exe`, Microsoft Store `.msix`, Android Studio ZIP, and Ubuntu `.deb` packages all simultaneously in a single click.
 
-6. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
+7. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
    * Remote version manifests, visual changelog modal, and automated in-app updates with SHA-256 cryptographic verification.
 
 ---
