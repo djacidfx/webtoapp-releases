@@ -1,15 +1,14 @@
 {
-    "latestVersion":  "1.1.9",
+    "latestVersion":  "1.2.0",
     "releaseDate":  "2026-09-15",
     "mandatory":  false,
     "changelog":  [
-                      "Added Microsoft Store (MSIX) packaging with free zero-cost code signing",
-                      "Added 1-click test certificate installer for local Windows sideloading",
-                      "Added auto-generated 5 scaled Store visual assets and AppxManifest.xml",
-                      "Added Microsoft Store tab and top platform switcher pill",
-                      "Added Microsoft Store support to Multi-Platform Build pipeline"
+                      "Added Integrated Icon Studio with live multi-platform previews and monogram generator",
+                      "Added automated multi-platform icon suite compiler (.ico, Android mipmaps, Store tiles, Linux hicolor, Web favicons)",
+                      "Added Buy Me a Coffee creator support callouts on build results and update center",
+                      "Performance and visual polish improvements across Windows, Android, and Ubuntu packages"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.1.9/WebToApp-Studio-v1.1.9.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.2.0/WebToApp-Studio-v1.2.0.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "c442a433abb47e63d00e72a9fdf5ecad867d71d637a4f612ce0c425e96624090"
+    "sha256":  "97b1449f12c3492a70a746d148c6e04d5d25fb12ca6d3eba49dad0210ba2ba21"
 }
