@@ -1,17 +1,18 @@
 {
-    "latestVersion": "1.4.0",
+    "latestVersion": "1.4.1",
     "releaseDate": "2026-09-16",
     "mandatory": false,
     "changelog": [
+        "Studio opens maximized by default across Windows and Linux with preserved restore bounds",
+        "Direct database (.sql/.ddl) file importer with file dialog and drag-and-drop loading",
+        "Instant schema analysis badge displaying loaded file name, size, line count, and table count",
+        "1-Click .sql schema exporter to download modified database DDL back to disk",
         "Custom Deep-Linking (myapp://) URL protocol registration and IPC engine",
         "Single-instance named pipe parameter forwarding with zero secondary popups",
         "Automatic window focus and restoration (Win32 ShowWindow / SetForegroundWindow)",
-        "RFC 3986 scheme compliance and reserved protocol blacklist security hardening",
-        "Frontend JavaScript bridge with window.desktopApp.onDeepLink() and getLaunchUrl()",
-        "Cross-platform protocol packaging: Inno Setup, MSIX AppxManifest, and Linux .desktop XDG",
-        "Studio UI Security & Controls custom deep-linking configuration and JS cheat sheet"
+        "RFC 3986 scheme compliance and reserved protocol blacklist security hardening"
     ],
-    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.4.0/WebToApp-Studio-v1.4.0.zip",
+    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.4.1/WebToApp-Studio-v1.4.1.zip",
     "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "55c1bcf541b3278ff656a0ce3da47ec1c635a9ee6fb86d00bdb5b1f92e1bcc8b"
+    "sha256": "63adea955464e12b7ef74cd6f8d8753ecd01ddba59ad54ccda765508409cce64"
 }
