@@ -19,7 +19,7 @@
 * :rocket: **[Quick Start Guide](https://github.com/djacidfx/webtoapp-releases/wiki/Quick-Start-Guide)**
 * :balance_scale: **[Legal Disclaimer & Acceptable Use Policy](#legal-disclaimer)**
 * :beetle: **[Report an Issue / Request a Feature](https://github.com/djacidfx/webtoapp-releases/issues)**
-* :coffee: **[Support on Buy Me a Coffee](https://buymeacoffee.com/wildcatstudio)** | :heart: **[Support on Patreon](https://www.patreon.com/c/wildcatstudio)**
+* :coffee: **[Support on Buy Me a Coffee](https://buymeacoffee.com/wildcatstudio)** | :star: **[Star on GitHub](https://github.com/djacidfx/webtoapp-releases)**
 
 ---
 
@@ -150,7 +150,7 @@ Encountered an issue or have an idea to make WebToApp Studio Pro even better?
 If **WebToApp Studio Pro** accelerates your workflows and helps you deliver client apps, games, or SaaS wrappers, consider supporting ongoing development:
 
 * :coffee: **Buy Me a Coffee**: [buymeacoffee.com/wildcatstudio](https://buymeacoffee.com/wildcatstudio)
-* :heart: **Patreon**: [patreon.com/c/wildcatstudio](https://www.patreon.com/c/wildcatstudio)
+* :star: **Star on GitHub**: [github.com/djacidfx/webtoapp-releases](https://github.com/djacidfx/webtoapp-releases)
 
 ---
 
