@@ -8,6 +8,7 @@
         "Interactive Startup Indicators: Loading Bar, Accent Ring, Pulsing Dots, and custom brand accents",
         "Live Frameless Desktop Simulation with 1.5s startup fade animation test bench",
         "1-Click Apply to Project: Auto-configures splash screen and matches window background color",
+        "Bundled & Embedded Sample Projects: Instant 1-click loading for Neon Space Defender and Sales Analytics Dashboard",
         "Single-File Standalone Packaging: Bundles all 240+ .NET runtime DLLs directly into WebToExe.Studio.exe for a clean, zero-clutter root folder",
         "Splash Screen Guidance Suite: Built-in sizing/format recommendations card (480x320 optimal) and dynamic resolution detector",
         "Enterprise Security Hardening: AES-256 encrypted Studio container (studio.dat) with in-memory streaming",
@@ -15,5 +16,5 @@
     ],
     "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.0/WebToApp-Studio-v1.5.0.zip",
     "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "9df1ac56eedf8ff15690025573abf0120802632f8915c396ec1d59ece8e0e9cc"
+    "sha256": "0d8731708978b2bfb204f7e8f24f07d875369913bb100956d89fbeb6f982d720"
 }
