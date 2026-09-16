@@ -99,10 +99,10 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.2.2.zip`**<br><sub>`57b0da3f2692e3ce6551523a6093707f3cc17b252407104bdee00f6fed0675ce`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/57b0da3f2692e3ce6551523a6093707f3cc17b252407104bdee00f6fed0675ce) |
-| **`WebToApp-Studio-v1.2.2-Lightweight.zip`**<br><sub>`069e2da8629aacac6cf940f6ca311b9d365b4ec24e5d081f609afe90767413a6`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/069e2da8629aacac6cf940f6ca311b9d365b4ec24e5d081f609afe90767413a6) |
-| **`WebToApp-Studio-Pro_1.2.2_amd64.deb`**<br><sub>`c6cff70d1e129a8ba009a7e5cf682d14cb996ba48ae1afa7ff0447f14b7d0035`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/c6cff70d1e129a8ba009a7e5cf682d14cb996ba48ae1afa7ff0447f14b7d0035) |
-| **`WebToApp-Studio-Pro-Linux-x64-v1.2.2-Portable.tar.gz`**<br><sub>`76053b1d7120c22c4424f880d00b5076c772b01a1316c9e229ab7893e90776b6`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/76053b1d7120c22c4424f880d00b5076c772b01a1316c9e229ab7893e90776b6) |
+| **`WebToApp-Studio-v1.2.2.zip`**<br><sub>`f9e445c7a54f69dccee8c68b5e1a9a818f42fbdcede0ecdad9a21bc22eceeaec`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/f9e445c7a54f69dccee8c68b5e1a9a818f42fbdcede0ecdad9a21bc22eceeaec) |
+| **`WebToApp-Studio-v1.2.2-Lightweight.zip`**<br><sub>`d4c9cf16c34cb550282cad58532355d832cbeadbdc753ed9ccdc94100d21e538`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/d4c9cf16c34cb550282cad58532355d832cbeadbdc753ed9ccdc94100d21e538) |
+| **`WebToApp-Studio-Pro_1.2.2_amd64.deb`**<br><sub>`3cbc32624f0a51ebc7d20b152b77a5384a75bf0d84b24845b9e1c95a3c0e297e`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/3cbc32624f0a51ebc7d20b152b77a5384a75bf0d84b24845b9e1c95a3c0e297e) |
+| **`WebToApp-Studio-Pro-Linux-x64-v1.2.2-Portable.tar.gz`**<br><sub>`3c83ace7850b20784183b300d0790aee9ce3c744a1b76a10bb74aa7bc7be4339`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/3c83ace7850b20784183b300d0790aee9ce3c744a1b76a10bb74aa7bc7be4339) |
 
 ---
 
