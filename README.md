@@ -99,9 +99,9 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Platform | SHA-256 Checksum | VirusTotal Scan Verification | Status |
 |---|---|---|---|:---:|
-| `WebToApp-Studio-v1.1.9.zip` | Windows (Portable Zip) | `c442a433abb47e63d00e72a9fdf5ecad867d71d637a4f612ce0c425e96624090` | [:shield: 0 / 67 Engines Clean](https://www.virustotal.com/gui/file/c442a433abb47e63d00e72a9fdf5ecad867d71d637a4f612ce0c425e96624090) | :white_check_mark: Clean |
-| `WebToApp-Studio-Pro_1.1.9_amd64.deb` | Ubuntu / Debian (.deb) | `10e7d6b7d7849c355f7f235ee3229f0ac2b74ab4b3efe15e8d59ec647cc66fc2` | [:shield: 0 / 61 Engines Clean](https://www.virustotal.com/gui/file/10e7d6b7d7849c355f7f235ee3229f0ac2b74ab4b3efe15e8d59ec647cc66fc2) | :white_check_mark: Clean |
-| `WebToApp-Studio-Pro-Linux-x64-v1.1.9-Portable.tar.gz` | Linux x64 (.tar.gz) | `589d530bb122e8a72ab21c429d28e780477f5906f3d231ad5296b04cef3f86b6` | [:shield: 0 / 62 Engines Clean](https://www.virustotal.com/gui/file/589d530bb122e8a72ab21c429d28e780477f5906f3d231ad5296b04cef3f86b6) | :white_check_mark: Clean |
+| `WebToApp-Studio-v1.2.0.zip` | Windows (Portable Zip) | `97b1449f12c3492a70a746d148c6e04d5d25fb12ca6d3eba49dad0210ba2ba21` | [Inspect on VirusTotal (70+ Engines)](https://www.virustotal.com/gui/file/97b1449f12c3492a70a746d148c6e04d5d25fb12ca6d3eba49dad0210ba2ba21) | âœ… Clean |
+| `WebToApp-Studio-Pro_1.2.0_amd64.deb` | Ubuntu / Debian (.deb) | `60321a7aef3c619db781da66fa576acf79b19010b4a0b8ade477f4944b23cb71` | [Inspect on VirusTotal (70+ Engines)](https://www.virustotal.com/gui/file/60321a7aef3c619db781da66fa576acf79b19010b4a0b8ade477f4944b23cb71) | âœ… Clean |
+| `WebToApp-Studio-Pro-Linux-x64-v1.2.0-Portable.tar.gz` | Linux x64 (.tar.gz) | `ec28f63a9f736a4379b6cf142d27dbeee3201aa58b61a7cf703203f0d1a8d711` | [Inspect on VirusTotal (70+ Engines)](https://www.virustotal.com/gui/file/ec28f63a9f736a4379b6cf142d27dbeee3201aa58b61a7cf703203f0d1a8d711) | âœ… Clean |
 
 ---
 
