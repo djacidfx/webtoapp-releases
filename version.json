@@ -1,15 +1,15 @@
 {
-    "latestVersion":  "1.2.2",
-    "releaseDate":  "2026-09-15",
-    "mandatory":  false,
-    "changelog":  [
-                      "Added Standalone Zero-Install Edition with embedded .NET runtime (zero prerequisites, never shows missing .NET dialog)",
-                      "Added Ultra-Lightweight Edition (1.78 MB) for systems with .NET 8.0 Desktop Runtime pre-installed",
-                      "Updated System Requirements and documentation with direct Microsoft runtime links",
-                      "Integrated Icon Studio with live multi-platform previews and monogram generator",
-                      "Buy Me a Coffee creator support callouts on build results and update center"
-                  ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.2.2/WebToApp-Studio-v1.2.2.zip",
-    "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "f9e445c7a54f69dccee8c68b5e1a9a818f42fbdcede0ecdad9a21bc22eceeaec"
+    "latestVersion": "1.2.2",
+    "releaseDate": "2026-09-15",
+    "mandatory": false,
+    "changelog": [
+        "Added Standalone Zero-Install Edition with embedded .NET runtime (zero prerequisites, never shows missing .NET dialog)",
+        "Added Ultra-Lightweight Edition (1.78 MB) for systems with .NET 8.0 Desktop Runtime pre-installed",
+        "Updated System Requirements and documentation with direct Microsoft runtime links",
+        "Integrated Icon Studio with live multi-platform previews and monogram generator",
+        "Buy Me a Coffee creator support callouts on build results and update center"
+    ],
+    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.2.2/WebToApp-Studio-v1.2.2.zip",
+    "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
+    "sha256": "a769b0f66e226c615d2ca667701d3925217e47498281e907959c74f652c9d575"
 }
