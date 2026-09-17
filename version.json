@@ -1,13 +1,15 @@
 {
-    "latestVersion":  "1.5.8",
+    "latestVersion":  "1.5.9",
     "releaseDate":  "2026-09-17",
     "mandatory":  false,
     "changelog":  [
-                      "Fixed WebView2 file download handling preventing false offline error screens",
-                      "Improved offline retry navigation to preserve active page state",
-                      "Maintained unified Tools creative hub and Day/Night engine"
+                      "Instant Page Refresh via F5, Ctrl+F5, Ctrl+R, and Ctrl+Shift+R with automatic cache bypass",
+                      "Toggleable Disable HTTP Cache to force live network resource fetching",
+                      "Toggleable Clear Disk Cache on Launch to purge WebView2 cache profile upon app startup",
+                      "Stateful offline recovery restoring users active page on connection resumption",
+                      "All 19 automated packaging and security pipelines validated"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.8/WebToApp-Studio-v1.5.8.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.9/WebToApp-Studio-v1.5.9.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "8834592d52c465024408e4c1f15e751402f30e0b67dbd7ea4e98219909285bab"
+    "sha256":  "5dc83d266a35aff497f3b6ec87bbbf680d8042fd27f211ef39a71eebf5783ec8"
 }
