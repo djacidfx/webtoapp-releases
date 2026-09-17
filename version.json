@@ -1,15 +1,13 @@
 {
-    "latestVersion":  "1.5.7",
+    "latestVersion":  "1.5.8",
     "releaseDate":  "2026-09-17",
     "mandatory":  false,
     "changelog":  [
-                      "Consolidated top studio navigation with a unified Tools dropdown housing Icon Studio, Splash Studio, and PWA Studio",
-                      "Enhanced discoverability for Retina 960x640 Startup Splash Screen builder from anywhere in the interface",
-                      "Added 1-click quick-access shortcut directly to Progressive Web App (PWA) Studio workbench",
-                      "Prepared architectural integration slot for upcoming Milestone 5.2 WordPress Companion Studio",
-                      "Optimized header space and layout symmetry across desktop window resolutions and scaling factors"
+                      "Fixed WebView2 file download handling preventing false offline error screens",
+                      "Improved offline retry navigation to preserve active page state",
+                      "Maintained unified Tools creative hub and Day/Night engine"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.7/WebToApp-Studio-v1.5.7.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.8/WebToApp-Studio-v1.5.8.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "186560e9177e6142737b271426d4bf4422c6712d8981c285e746bc371ca19682"
+    "sha256":  "8834592d52c465024408e4c1f15e751402f30e0b67dbd7ea4e98219909285bab"
 }
