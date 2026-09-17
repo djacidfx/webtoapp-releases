@@ -314,13 +314,16 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 * **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.3.zip`) [Recommended]**:  
   Completely self-contained with embedded .NET runtime. **Zero installation or runtime dependencies required** — simply extract the zip archive and double-click `WebToExe.Studio.exe` to run immediately on any Windows 10/11 PC without ever seeing a missing .NET runtime prompt!
 * **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.3-Lightweight.zip`)**:  
-  Ultra-compact download (~33.8 MB). Requires the free [Microsoft .NET Desktop Runtime 8.0 (x64)](https://dotnet.microsoft.com/download/dotnet/8.0/runtime) (Direct installer link: [windowsdesktop-runtime-win-x64.exe](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)).
+  Ultra-compact download (**28.75 MB**). Designed for users who already have or prefer to use a shared system-wide .NET runtime:
+  * **Operating System**: Windows 10 (Build 1809+) or Windows 11 (64-bit)
+  * **Required Runtime**: **[Microsoft .NET 8.0 Desktop Runtime (x64)](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)** *(Important: You must install the **Desktop** Runtime, not just the base console or ASP.NET Core runtime).*
+  * **Web Engine**: Microsoft Edge WebView2 Evergreen Runtime (standard on modern Windows).
 
 > [!TIP]
 > **Saw the "You must install or update .NET to run this application" popup?**  
-> If you run the **Lightweight edition** on a computer that does not have .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
-> 1. Click **"Download it now"** in the Windows dialog (or download directly from [Microsoft .NET 8.0 Desktop Runtime x64](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the official Microsoft installer, and then launch `WebToExe.Studio.exe`.
-> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.3.zip`), which has zero prerequisites and works out of the box!
+> If you run the **Lightweight edition** on a computer that does not have the .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
+> 1. Click **"Download it now"** in the Windows dialog (or download directly from the official [Microsoft .NET 8.0 Desktop Runtime x64 Installer](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the installer, and then launch `WebToExe.Studio.exe`.
+> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.3.zip`), which has zero prerequisites and works out of the box with no installations!
 
 ### Target Output Environments
 * **Windows Executables**: Windows 10 / 11 (64-bit) with WebView2 Runtime
