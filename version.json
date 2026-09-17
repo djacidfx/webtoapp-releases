@@ -1,20 +1,14 @@
 {
-    "latestVersion": "1.5.0",
+    "latestVersion": "1.5.1",
     "releaseDate": "2026-09-16",
     "mandatory": false,
     "changelog": [
-        "Integrated Splash Studio: Full-featured visual brand builder with Branded Logo and Artwork Fitter modes",
-        "High-DPI 960x640 Retina Canvas rendering pixel-perfect 480x320 startup screens",
-        "Interactive Startup Indicators: Loading Bar, Accent Ring, Pulsing Dots, and custom brand accents",
-        "Live Frameless Desktop Simulation with 1.5s startup fade animation test bench",
-        "1-Click Apply to Project: Auto-configures splash screen and matches window background color",
-        "Bundled & Embedded Sample Projects: Instant 1-click loading for Neon Space Defender and Sales Analytics Dashboard",
-        "Single-File Standalone Packaging: Bundles all 240+ .NET runtime DLLs directly into WebToExe.Studio.exe for a clean, zero-clutter root folder",
-        "Splash Screen Guidance Suite: Built-in sizing/format recommendations card (480x320 optimal) and dynamic resolution detector",
-        "Enterprise Security Hardening: AES-256 encrypted Studio container (studio.dat) with in-memory streaming",
-        "Anti-Debugging & Disassembler Defense: Native Win32 CheckRemoteDebuggerPresent and process memory defense"
+        "Splash Studio Canvas Fix: Added explicit path encapsulation to prevent path retention artifacts when loading custom disk images",
+        "Bundled Windows MSIX Tools: makeappx.exe, signtool.exe, and mssign32.dll embedded directly into core assembly to allow MSIX builds without Windows SDK",
+        "Website Integration: Added live interactive Splash Studio brand builder and simulator to wildcatstudio.us",
+        "Zero-Clutter Packaging: Standalone single-file bundle with zero loose DLLs in root"
     ],
-    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.0/WebToApp-Studio-v1.5.0.zip",
+    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.1/WebToApp-Studio-v1.5.1.zip",
     "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "0d8731708978b2bfb204f7e8f24f07d875369913bb100956d89fbeb6f982d720"
+    "sha256": "789622c8c3553483d6819cbbbe952a40a3f3507455cb8c75b1364e8d0c55f770"
 }
