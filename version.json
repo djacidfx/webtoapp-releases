@@ -1,15 +1,15 @@
 {
-    "latestVersion":  "1.5.6",
+    "latestVersion":  "1.5.7",
     "releaseDate":  "2026-09-17",
     "mandatory":  false,
     "changelog":  [
-                      "Day / Night (Light & Dark) Theme Engine with one-click Sun / Moon header toggle button",
-                      "Native Windows 10/11 Title Bar Synchronization via DWM (DwmSetWindowAttribute) for seamless OS chrome theme matching",
-                      "Zero FOUC (Flash of Unstyled Content) synchronous startup script and persistent theme preferences across sessions",
-                      "Full ecosystem aesthetic harmony across Desktop Studio, Marketing Website, and Developer Documentation Portal",
-                      "Refined high-contrast daylight color palette preserving signature WildCat brand accents and dark developer terminals"
+                      "Consolidated top studio navigation with a unified Tools dropdown housing Icon Studio, Splash Studio, and PWA Studio",
+                      "Enhanced discoverability for Retina 960x640 Startup Splash Screen builder from anywhere in the interface",
+                      "Added 1-click quick-access shortcut directly to Progressive Web App (PWA) Studio workbench",
+                      "Prepared architectural integration slot for upcoming Milestone 5.2 WordPress Companion Studio",
+                      "Optimized header space and layout symmetry across desktop window resolutions and scaling factors"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.6/WebToApp-Studio-v1.5.6.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.7/WebToApp-Studio-v1.5.7.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "13c2d6a8e60cbfa22c435e7052d7ce4a087ac546c5bbf740a3de33f81bc50a43"
+    "sha256":  "186560e9177e6142737b271426d4bf4422c6712d8981c285e746bc371ca19682"
 }
