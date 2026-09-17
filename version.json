@@ -1,14 +1,14 @@
 {
-    "latestVersion": "1.5.1",
+    "latestVersion": "1.5.2",
     "releaseDate": "2026-09-16",
     "mandatory": false,
     "changelog": [
+        "Windows MSIX SxS Toolchain: Bundled complete companion DLLs (appxpackaging.dll, appxsip.dll, opcservices.dll) and SxS manifests, eliminating side-by-side configuration errors",
+        "Multi-Resource Self-Extraction: Extracts all embedded toolchain manifests and companion libraries together to AppData",
         "Splash Studio Canvas Fix: Added explicit path encapsulation to prevent path retention artifacts when loading custom disk images",
-        "Bundled Windows MSIX Tools: makeappx.exe, signtool.exe, and mssign32.dll embedded directly into core assembly to allow MSIX builds without Windows SDK",
-        "Website Integration: Added live interactive Splash Studio brand builder and simulator to wildcatstudio.us",
         "Zero-Clutter Packaging: Standalone single-file bundle with zero loose DLLs in root"
     ],
-    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.1/WebToApp-Studio-v1.5.1.zip",
+    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.2/WebToApp-Studio-v1.5.2.zip",
     "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "20395f0d20305693c213a979df8d719b112e346c26096bfe8e4c21f79c507823"
+    "sha256": "8f509ce98e1be9f3a0a50e137916be78755b83d43f2fe2b7e67adca166eff8a5"
 }
