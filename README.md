@@ -63,10 +63,22 @@
    * RFC 3986 scheme validation, reserved scheme blacklist, and argument injection immunity.
    * Client JavaScript bridge via `window.desktopApp.onDeepLink()` and `getLaunchUrl()`.
 
-7. **:zap: Multi-Platform Multi-Build**:
-   * Build Windows `.exe`, Microsoft Store `.msix`, Android Studio ZIP, and Ubuntu `.deb` packages all simultaneously in a single click.
+7. **:closed_lock_with_key: Windows Authenticode Code Signing Pipeline**:
+   * Automated post-build Authenticode code signing stage using Windows SDK `signtool.exe` to eliminate SmartScreen "unknown publisher" warnings.
+   * Dual certificate sources: Local PFX/P12 files (OV) and Windows Certificate Store (EV hardware tokens like SafeNet/YubiKey) via SHA-1 thumbprint.
+   * Zero CLI password exposure via ephemeral in-memory user-store staging, RFC 3161 SHA-256 timestamping, and non-blocking in-place retry signing.
 
-8. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
+8. **:globe_with_meridians: Integrated PWA Studio & Service Worker Generator**:
+   * Turnkey Progressive Web App generation: compliant W3C Web App Manifests (`manifest.json` and `manifest.webmanifest`).
+   * Pure vanilla JS service worker (~3 KB, 0 external dependencies) with 3 enterprise caching strategies (*Stale-While-Revalidate*, *Cache-First*, *Network-First*).
+   * Branded glassmorphic offline fallback screen (`offline.html`) with auto-reconnection detection and reload.
+   * W3C 80% maskable safe-zone icon rasterizer (192px, 512px, apple-touch, maskable) with automatic branded fallback generation.
+   * 1-Click in-place project injection, standalone PWA ZIP export, and MultiBuild bundling.
+
+9. **:zap: Multi-Platform Multi-Build**:
+   * Build Windows `.exe`, Microsoft Store `.msix`, Android Studio ZIP, Ubuntu `.deb`, and PWA Web App bundle all simultaneously in a single click.
+
+10. **:arrows_counterclockwise: 1-Click In-App Auto-Updater**:
    * Remote version manifests, visual changelog modal, and automated in-app updates with SHA-256 cryptographic verification.
 
 ---
@@ -74,7 +86,7 @@
 <a id="feature-checklist"></a>
 ## :white_check_mark: Complete Feature Checklist & Architecture Capabilities
 
-Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.3**:
+Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.5**:
 
 ### 1. Dual Source Processing & Asset Pipeline
 - [x] **Website URL Mode**:
@@ -123,6 +135,17 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
   - [x] Dual deliverables: installable Debian package (`sudo dpkg -i app.deb`) and portable Linux AppDir (`./run.sh`)
   - [x] Native WebKitGTK Photino runner integration
   - [x] XDG MIME scheme handler registration (`x-scheme-handler/<scheme>;`)
+- [x] **Progressive Web App (PWA Web App Bundle)**:
+  - [x] Full W3C Web App Manifest generation (`manifest.json` and `manifest.webmanifest`)
+  - [x] Pure vanilla JS service worker (`sw.js`) with zero npm or Node.js dependencies (~3 KB)
+  - [x] 3 Enterprise caching strategies: Stale-While-Revalidate, Cache-First (Offline-First), Network-First
+  - [x] Automatic cache versioning (`appSlug-cache-vX.Y.Z`) and legacy cache purging upon activation
+  - [x] Branded glassmorphic offline fallback screen (`offline.html`) with auto-reconnection reload detection
+  - [x] W3C 80% maskable safe-zone icon rasterizer (192px, 512px, apple-touch-icon, and 512px maskable icon on solid background)
+  - [x] Branded fallback icon generator creating complete high-res icon assets when no custom icon is provided
+  - [x] Non-destructive in-place project folder injection with idempotence protection
+  - [x] Standalone PWA ZIP export (`<ExecutableName>_v<Version>_PWA.zip`) with `PWA_DEPLOYMENT_GUIDE.md` and `pwa_snippet.html`
+  - [x] Simultaneous MultiBuild packaging alongside Windows, Android, and Ubuntu
 
 ---
 
@@ -164,7 +187,31 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ---
 
-### 5. Application Branding & Customization
+### 5. Windows Authenticode Code Signing Pipeline (v1.5.4)
+- [x] **Zero-Friction Windows Code Signing**:
+  - [x] Automated post-build signing stage for exported desktop executables (`.exe`) to eliminate SmartScreen warnings
+  - [x] Auto-discovery of Windows SDK `signtool.exe` with bundled toolchain fallback
+  - [x] **Dual Certificate Sources**:
+    - [x] Local PFX / P12 file selection with private key password entry
+    - [x] Windows Certificate Store targeting via SHA-1 thumbprint for EV hardware tokens (SafeNet eToken, YubiKey)
+    - [x] Cloud HSM extension point stub (Azure Trusted Signing, DigiCert KeyLocker, SSL.com eSigner)
+  - [x] **Zero CLI Password Exposure Security**:
+    - [x] Ephemeral in-memory staging into `CurrentUser\My` personal store
+    - [x] `signtool.exe /sha1` execution without exposing passwords in CLI arguments, process listings, or logs
+    - [x] Automatic post-signing store purge in guaranteed `finally` block
+  - [x] **RFC 3161 Timestamping & SHA-256 Digest**:
+    - [x] SHA-256 digest (`/fd SHA256`) and RFC 3161 timestamping authority (`/tr http://timestamp.digicert.com /td SHA256`)
+    - [x] Automated post-build verification with `signtool.exe verify /pa /v` extracting Subject, Issuer, and Timestamp
+  - [x] **Non-Blocking Failure & In-Place Retry**:
+    - [x] Preserves output binary on disk if signing fails without aborting the export
+    - [x] Amber warning banner and Authenticode verified badge in build results
+    - [x] 1-Click in-place Retry Signing dialog to sign already-built binaries without a full re-export
+  - [x] **Encrypted Secret Storage**:
+    - [x] AES-256 PBKDF2 container encryption for persisted certificate passwords in `.wtp` project files
+
+---
+
+### 6. Application Branding & Customization
 - [x] **Executable & Metadata Customization**:
   - [x] Executable name customization (`.exe`)
   - [x] Window title & Application display name
@@ -180,7 +227,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ---
 
-### 6. Window & Display Management
+### 7. Window & Display Management
 - [x] **Dimensions & Constraints**:
   - [x] Sizing presets (FHD 1080p, HD 720p, Default 1280x800, Compact 1024x768)
   - [x] Custom pixel width/height and minimum width/height constraints
@@ -193,7 +240,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ---
 
-### 7. Commercial Security & Sandbox Controls
+### 8. Commercial Security & Sandbox Controls
 - [x] **Hardened Web Runtime**:
   - [x] Disable Developer Tools (F12, Ctrl+Shift+I, Inspect Element shortcuts)
   - [x] Disable Right-Click Context Menu
@@ -209,17 +256,23 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ---
 
-### 8. Modern Studio Builder Desktop GUI (`WebToExe.Studio`)
+### 9. Modern Studio Builder Desktop GUI (`WebToExe.Studio`)
 - [x] **Interface Design & Workflow**:
   - [x] Linear/Vercel-inspired dark theme UI
   - [x] **Maximized Window Startup by Default** on Windows and Linux with preserved 1340×880 restore bounds (v1.4.1)
   - [x] Interactive Welcome Hub on startup (New Project, Open Project, Recent Projects history)
   - [x] Real-time live window mockup preview with active security badges
-  - [x] Tabbed workflow (Source, Branding, Window, Security & Deep-Linking, SQLite Database, Build & Export)
+  - [x] Tabbed workflow (Source, Branding, Window, Security & Signing, SQLite Database, Splash Studio, Deep Linking, Auto-Updater, MultiBuild, PWA Studio)
   - [x] Native Windows file and folder picker dialogs
   - [x] Multi-step progress drawer with build stages and detailed build log
   - [x] Post-build modal with 1-click "Open Folder" and "Test Run App"
   - [x] Project configuration management (`.wtp` save/load)
+- [x] **Windows Authenticode Code Signing Controls (Tab 4 & Post-Build Modal) (v1.5.4)**:
+  - [x] Local PFX / P12 file browser with private key password input
+  - [x] Windows Certificate Store targeting via SHA-1 thumbprint for hardware EV tokens (SafeNet eToken, YubiKey)
+  - [x] AES-256 encrypted password storage in `.wtp` project files
+  - [x] Post-build Authenticode verification badge and non-blocking amber warning display
+  - [x] 1-Click in-place "Retry Signing" modal dialog to re-sign exported binaries without re-exporting
 - [x] **Integrated Splash Studio & Visual Brand Builder (v1.5.3)**:
   - [x] Interactive two-pane design workbench for splash screens (Tab 6 *Splash & Polish* or header button).
   - [x] **Branded Logo Mode**: Logo scale slider (15%–65%), typography picker, tagline/subtitle, custom text colors, and 6 curated high-contrast background gradients.
@@ -229,6 +282,15 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
   - [x] **Live Desktop Simulation**: Floating frameless desktop preview with `▶️ Simulate Startup Fade` 1.5s runtime animation.
   - [x] **1-Click Project Application**: Auto-packages splash graphic, matches window background color, and enables splash screen configuration.
   - [x] **Standalone PNG Export**: 1-Click export to disk as high-resolution PNG.
+- [x] **Integrated PWA Studio Workbench (Tab 10 & Export Pill) (v1.5.5)**:
+  - [x] Dedicated PWA configuration tab and instant export pill in header and builder
+  - [x] Interactive two-pane design workbench: live mobile frame preview with install banner simulation
+  - [x] Real-time W3C maskable safe-zone overlay toggle (80% circle/rounded rectangle guide)
+  - [x] Display mode selector (*Standalone*, *Minimal-UI*, *Fullscreen*, *Browser*), theme/background color pickers
+  - [x] Cache strategy selector (*Stale-While-Revalidate*, *Cache-First*, *Network-First*) and offline asset management
+  - [x] 1-Click **"Inject PWA into Project"** (non-destructive in-place injection with idempotence)
+  - [x] 1-Click **"Export PWA Bundle (.zip)"** generating turnkey deployment package with step-by-step documentation
+  - [x] Automated HTML snippet generator (`pwa_snippet.html`) and clipboard copy button
 - [x] **Studio Enterprise Security Hardening & Anti-Reverse Engineering (v1.4.3)**:
   - [x] AES-256 encrypted Studio container (`studio.dat`) with in-memory streaming into `https://studio.local/` (zero plaintext HTML/CSS/JS in assembly or on disk)
   - [x] DevTools (`F12`, `Ctrl+Shift+I`) and context menus locked down in Release builds
@@ -239,7 +301,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ---
 
-### 9. 1-Click Auto-Updater & Ecosystem
+### 10. 1-Click Auto-Updater & Ecosystem
 - [x] **Built-in Studio Auto-Updater**:
   - [x] Automatic update check against official GitHub release manifest (`version.json`)
   - [x] Cryptographic SHA-256 hash verification before archive extraction
@@ -259,12 +321,12 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ### 1. Download & Run
 1. Go to the **[Latest Release](https://github.com/djacidfx/webtoapp-releases/releases/latest)**.
-2. Download the distribution ZIP: `WebToApp-Studio-v1.5.3.zip`.
+2. Download the distribution ZIP: `WebToApp-Studio-v1.5.5.zip`.
 3. Extract the ZIP archive on your Windows machine.
 4. Open the `01-WebToApp-Studio/` directory and double-click **`WebToExe.Studio.exe`**.
 
 ### 2. Packaging Your Application
-1. **Choose Target Platform**: Select **Windows (.exe)**, **Android App**, **Ubuntu Linux**, or **Multi-Build**.
+1. **Choose Target Platform**: Select **Windows (.exe)**, **Android App**, **Ubuntu Linux**, **PWA Web App**, or **Multi-Build**.
 2. **Select Source**:
    - **Website URL**: Enter your live website (e.g. `https://myawesomeapp.com`).
    - **Local HTML5 Folder**: Select your static folder containing `index.html` (e.g. HTML5 game, React, Vue, Vite, or static site export).
@@ -311,9 +373,9 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 * **Architecture**: x64
 
 #### Which Windows Download Should I Choose?
-* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.3.zip`) [Recommended]**:  
+* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.5.zip`) [Recommended]**:  
   Completely self-contained with embedded .NET runtime. **Zero installation or runtime dependencies required** — simply extract the zip archive and double-click `WebToExe.Studio.exe` to run immediately on any Windows 10/11 PC without ever seeing a missing .NET runtime prompt!
-* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.3-Lightweight.zip`)**:  
+* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.5-Lightweight.zip`)**:  
   Ultra-compact download (**28.75 MB**). Designed for users who already have or prefer to use a shared system-wide .NET runtime:
   * **Operating System**: Windows 10 (Build 1809+) or Windows 11 (64-bit)
   * **Required Runtime**: **[Microsoft .NET 8.0 Desktop Runtime (x64)](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)** *(Important: You must install the **Desktop** Runtime, not just the base console or ASP.NET Core runtime).*
@@ -323,12 +385,13 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 > **Saw the "You must install or update .NET to run this application" popup?**  
 > If you run the **Lightweight edition** on a computer that does not have the .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
 > 1. Click **"Download it now"** in the Windows dialog (or download directly from the official [Microsoft .NET 8.0 Desktop Runtime x64 Installer](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the installer, and then launch `WebToExe.Studio.exe`.
-> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.3.zip`), which has zero prerequisites and works out of the box with no installations!
+> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.5.zip`), which has zero prerequisites and works out of the box with no installations!
 
 ### Target Output Environments
 * **Windows Executables**: Windows 10 / 11 (64-bit) with WebView2 Runtime
 * **Android Apps**: Android 7.0 (API 24) through Android 14 (API 34+)
 * **Linux Packages**: Ubuntu 20.04+, Debian 11+, Linux Mint 20+, or compatible Debian-based distributions with GTK3 / WebKit2GTK
+* **Progressive Web Apps (PWA)**: Standard HTTPS hosting, Chromium browsers (Chrome, Edge, Brave), Safari iOS 16.4+, Firefox, Android
 
 ---
 
@@ -338,9 +401,9 @@ Encountered an issue or have an idea to make WebToApp Studio Pro even better?
 
 * :memo: **[Submit an Issue or Request](https://github.com/djacidfx/webtoapp-releases/issues)**
 * When submitting bugs, please include:
-  * Your version number (e.g. `v1.1.5`)
+  * Your version number (e.g. `v1.5.5`)
   * Windows OS version
-  * Target output platform (Windows / Android / Linux)
+  * Target output platform (Windows / Android / Linux / PWA)
   * Any error logs or screenshots
 
 ---
@@ -358,7 +421,7 @@ If **WebToApp Studio Pro** accelerates your workflows and helps you deliver clie
 ## :balance_scale: Legal Disclaimer & Acceptable Use Policy
 
 ### 1. Important Legal Notice
-**WebToApp Studio Pro** is a software utility developed to help developers, creators, and website owners package **their own** web applications, static websites, and games into native executables for Windows, Android, and Ubuntu Linux.
+**WebToApp Studio Pro** is a software utility developed to help developers, creators, and website owners package **their own** web applications, static websites, and games into native executables for Windows, Android, Ubuntu Linux, and Progressive Web Apps (PWA).
 
 The author/maintainers of WebToApp Studio Pro do not own, control, host, review, or endorse any third-party websites, applications, assets, or content packaged or distributed by end users of this software.
 
