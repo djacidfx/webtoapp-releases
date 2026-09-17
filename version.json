@@ -3,7 +3,7 @@
     "releaseDate":  "2026-09-17",
     "mandatory":  false,
     "changelog":  [
-                      "Day / Night (Light \u0026 Dark) Theme Engine with one-click Sun (â˜€ï¸) / Moon (ðŸŒ™) header toggle button",
+                      "Day / Night (Light & Dark) Theme Engine with one-click Sun / Moon header toggle button",
                       "Native Windows 10/11 Title Bar Synchronization via DWM (DwmSetWindowAttribute) for seamless OS chrome theme matching",
                       "Zero FOUC (Flash of Unstyled Content) synchronous startup script and persistent theme preferences across sessions",
                       "Full ecosystem aesthetic harmony across Desktop Studio, Marketing Website, and Developer Documentation Portal",
