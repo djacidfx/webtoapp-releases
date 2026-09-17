@@ -1,21 +1,16 @@
 {
-    "latestVersion": "1.5.3",
-    "releaseDate": "2026-09-16",
-    "mandatory": false,
-    "changelog": [
-        "Modal Action Streamlining: Resolved redundant duplicate 'Open Output Folder' buttons across all build completion dialogs",
-        "MSIX Direct Sideload / Install Action: Added 1-click Windows App Installer direct execution for newly packaged MSIX bundles",
-        "Target-Adaptive Primary Actions: Context-aware primary actions for Windows Executables, Store MSIX packages, Android Studio projects, and Linux Debian packages",
-        "Windows MSIX SxS Toolchain: Bundled complete companion DLLs (appxpackaging.dll, appxsip.dll, opcservices.dll) and SxS manifests, eliminating 'side-by-side configuration is incorrect' errors",
-        "Integrated Splash Studio: Full-featured visual brand builder with Branded Logo and Artwork Fitter modes",
-        "High-DPI 960x640 Retina Canvas rendering pixel-perfect 480x320 startup screens",
-        "Interactive Startup Indicators: Loading Bar, Accent Ring, Pulsing Dots, and custom brand accents",
-        "Live Frameless Desktop Simulation with 1.5s startup fade animation test bench",
-        "1-Click Apply to Project: Auto-configures splash screen and matches window background color",
-        "Single-File Standalone Packaging: Bundles all 240+ .NET runtime DLLs directly into WebToExe.Studio.exe for a clean, zero-clutter root folder",
-        "Enterprise Security Hardening: AES-256 encrypted Studio container (studio.dat) with in-memory streaming"
-    ],
-    "updateZipUrl": "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.3/WebToApp-Studio-v1.5.3.zip",
-    "infoUrl": "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256": "581c13dc14876caa222e7d08afb462a0992f9d976c95fd79ad169f419a060716"
+    "latestVersion":  "1.5.4",
+    "releaseDate":  "2026-09-17",
+    "mandatory":  false,
+    "changelog":  [
+                      "Windows Authenticode Code Signing Pipeline with signtool.exe integration",
+                      "Dual certificate source support: Local PFX/P12 (OV) and Windows Certificate Store (EV hardware tokens like SafeNet/YubiKey) via SHA-1 thumbprint",
+                      "Zero CLI password exposure: Ephemeral in-memory staging prevents credentials from leaking into process arguments",
+                      "RFC 3161 SHA-256 timestamping (http://timestamp.digicert.com) and automated post-build Authenticode verification",
+                      "Non-blocking build pipeline: Preserves output binary on disk with in-place retry signing without full rebuild",
+                      "Encrypted secret storage: AES-256 PBKDF2 container encryption for persisted certificate passwords in .wtp project files"
+                  ],
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.4/WebToApp-Studio-v1.5.4.zip",
+    "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
+    "sha256":  "10018d02e88d4a6b9ab7e71a87ff80733910a5d2b53736f54f1cd3219d6ba81f"
 }
