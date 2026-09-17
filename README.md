@@ -13,7 +13,7 @@
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.5.8)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.5.9)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :white_check_mark: **[Complete Feature Checklist & Architecture Capabilities](#feature-checklist)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
@@ -86,7 +86,7 @@
 <a id="feature-checklist"></a>
 ## :white_check_mark: Complete Feature Checklist & Architecture Capabilities
 
-Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.8**:
+Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.9**:
 
 ### 1. Dual Source Processing & Asset Pipeline
 - [x] **Website URL Mode**:
@@ -326,7 +326,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ### 1. Download & Run
 1. Go to the **[Latest Release](https://github.com/djacidfx/webtoapp-releases/releases/latest)**.
-2. Download the distribution ZIP: `WebToApp-Studio-v1.5.8.zip`.
+2. Download the distribution ZIP: `WebToApp-Studio-v1.5.9.zip`.
 3. Extract the ZIP archive on your Windows machine.
 4. Open the `01-WebToApp-Studio/` directory and double-click **`WebToExe.Studio.exe`**.
 
@@ -363,8 +363,8 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.5.8.zip`**<br><sub>`8834592d52c465024408e4c1f15e751402f30e0b67dbd7ea4e98219909285bab`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/8834592d52c465024408e4c1f15e751402f30e0b67dbd7ea4e98219909285bab) |
-| **`WebToApp-Studio-v1.5.8-Lightweight.zip`**<br><sub>`648b5a8ab4bb3fbd37ed63fa99fa2066d7d34d5e7773ea9ad5ad63e5fb6bf187`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/648b5a8ab4bb3fbd37ed63fa99fa2066d7d34d5e7773ea9ad5ad63e5fb6bf187) |
+| **`WebToApp-Studio-v1.5.9.zip`**<br><sub>`8834592d52c465024408e4c1f15e751402f30e0b67dbd7ea4e98219909285bab`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/8834592d52c465024408e4c1f15e751402f30e0b67dbd7ea4e98219909285bab) |
+| **`WebToApp-Studio-v1.5.9-Lightweight.zip`**<br><sub>`648b5a8ab4bb3fbd37ed63fa99fa2066d7d34d5e7773ea9ad5ad63e5fb6bf187`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/648b5a8ab4bb3fbd37ed63fa99fa2066d7d34d5e7773ea9ad5ad63e5fb6bf187) |
 | **`WebToApp-Studio-Pro_1.5.8_amd64.deb`**<br><sub>`62638ae90c0e4dced64dbb526b41a3f5179df43b3b1b97cdb467356c0cd6b21b`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/62638ae90c0e4dced64dbb526b41a3f5179df43b3b1b97cdb467356c0cd6b21b) |
 | **`WebToApp-Studio-Pro-Linux-x64-v1.5.8-Portable.tar.gz`**<br><sub>`03e67110c47fa88fb597f38d23591732c17113127ab1319c6f92313671d8df4e`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/03e67110c47fa88fb597f38d23591732c17113127ab1319c6f92313671d8df4e) |
 
@@ -378,9 +378,9 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 * **Architecture**: x64
 
 #### Which Windows Download Should I Choose?
-* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.8.zip`) [Recommended]**:  
+* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.9.zip`) [Recommended]**:  
   Completely self-contained with embedded .NET runtime. **Zero installation or runtime dependencies required** — simply extract the zip archive and double-click `WebToExe.Studio.exe` to run immediately on any Windows 10/11 PC without ever seeing a missing .NET runtime prompt!
-* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.8-Lightweight.zip`)**:  
+* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.9-Lightweight.zip`)**:  
   Ultra-compact download (**28.75 MB**). Designed for users who already have or prefer to use a shared system-wide .NET runtime:
   * **Operating System**: Windows 10 (Build 1809+) or Windows 11 (64-bit)
   * **Required Runtime**: **[Microsoft .NET 8.0 Desktop Runtime (x64)](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)** *(Important: You must install the **Desktop** Runtime, not just the base console or ASP.NET Core runtime).*
@@ -390,7 +390,7 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 > **Saw the "You must install or update .NET to run this application" popup?**  
 > If you run the **Lightweight edition** on a computer that does not have the .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
 > 1. Click **"Download it now"** in the Windows dialog (or download directly from the official [Microsoft .NET 8.0 Desktop Runtime x64 Installer](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the installer, and then launch `WebToExe.Studio.exe`.
-> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.8.zip`), which has zero prerequisites and works out of the box with no installations!
+> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.9.zip`), which has zero prerequisites and works out of the box with no installations!
 
 ### Target Output Environments
 * **Windows Executables**: Windows 10 / 11 (64-bit) with WebView2 Runtime
@@ -406,7 +406,7 @@ Encountered an issue or have an idea to make WebToApp Studio Pro even better?
 
 * :memo: **[Submit an Issue or Request](https://github.com/djacidfx/webtoapp-releases/issues)**
 * When submitting bugs, please include:
-  * Your version number (e.g. `v1.5.8`)
+  * Your version number (e.g. `v1.5.9`)
   * Windows OS version
   * Target output platform (Windows / Android / Linux / PWA)
   * Any error logs or screenshots
