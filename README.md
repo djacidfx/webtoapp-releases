@@ -13,7 +13,7 @@
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.5.5)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.5.6)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :white_check_mark: **[Complete Feature Checklist & Architecture Capabilities](#feature-checklist)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
@@ -86,7 +86,7 @@
 <a id="feature-checklist"></a>
 ## :white_check_mark: Complete Feature Checklist & Architecture Capabilities
 
-Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.5**:
+Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.6**:
 
 ### 1. Dual Source Processing & Asset Pipeline
 - [x] **Website URL Mode**:
@@ -267,6 +267,11 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
   - [x] Multi-step progress drawer with build stages and detailed build log
   - [x] Post-build modal with 1-click "Open Folder" and "Test Run App"
   - [x] Project configuration management (`.wtp` save/load)
+- [x] **Day / Night (Light & Dark) Theme Engine & Native Windows Title Bar Sync (v1.5.6)**:
+  - [x] One-click Sun (☀️) / Moon (🌙) theme toggle in the studio header action bar
+  - [x] High-contrast slate/white daylight color palette with maintained brand accents and high-contrast dark developer terminals/canvas
+  - [x] Native Windows Desktop Window Manager (DWM) integration via `DwmSetWindowAttribute` dynamically synchronizing the OS title bar between light and dark
+  - [x] Persistent user theme preference stored across sessions with automatic OS `prefers-color-scheme` detection
 - [x] **Windows Authenticode Code Signing Controls (Tab 4 & Post-Build Modal) (v1.5.4)**:
   - [x] Local PFX / P12 file browser with private key password input
   - [x] Windows Certificate Store targeting via SHA-1 thumbprint for hardware EV tokens (SafeNet eToken, YubiKey)
@@ -321,7 +326,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ### 1. Download & Run
 1. Go to the **[Latest Release](https://github.com/djacidfx/webtoapp-releases/releases/latest)**.
-2. Download the distribution ZIP: `WebToApp-Studio-v1.5.5.zip`.
+2. Download the distribution ZIP: `WebToApp-Studio-v1.5.6.zip`.
 3. Extract the ZIP archive on your Windows machine.
 4. Open the `01-WebToApp-Studio/` directory and double-click **`WebToExe.Studio.exe`**.
 
@@ -358,8 +363,8 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.5.5.zip`**<br><sub>`d364b4bed2edbc73532e35db59fd7bf2cbdf929c7d6a88f177e922d3803beb25`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/d364b4bed2edbc73532e35db59fd7bf2cbdf929c7d6a88f177e922d3803beb25) |
-| **`WebToApp-Studio-v1.5.5-Lightweight.zip`**<br><sub>`e221dcfd0a8ae7baee8832ea26b94812fd73c5e62b4590ad2113bfedcba873c5`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/e221dcfd0a8ae7baee8832ea26b94812fd73c5e62b4590ad2113bfedcba873c5) |
+| **`WebToApp-Studio-v1.5.6.zip`**<br><sub>`d364b4bed2edbc73532e35db59fd7bf2cbdf929c7d6a88f177e922d3803beb25`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/d364b4bed2edbc73532e35db59fd7bf2cbdf929c7d6a88f177e922d3803beb25) |
+| **`WebToApp-Studio-v1.5.6-Lightweight.zip`**<br><sub>`e221dcfd0a8ae7baee8832ea26b94812fd73c5e62b4590ad2113bfedcba873c5`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/e221dcfd0a8ae7baee8832ea26b94812fd73c5e62b4590ad2113bfedcba873c5) |
 | **`WebToApp-Studio-Pro_1.5.5_amd64.deb`**<br><sub>`4c039c02f4772cf7f916a1406ce7bc05ea5c77bffdb7d9212729ccfb58ea03c1`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/4c039c02f4772cf7f916a1406ce7bc05ea5c77bffdb7d9212729ccfb58ea03c1) |
 | **`WebToApp-Studio-Pro-Linux-x64-v1.5.5-Portable.tar.gz`**<br><sub>`94412f591ada2050ff9af5e032e58de57761f8a2078c0787d1a9de323a2b5a7d`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/94412f591ada2050ff9af5e032e58de57761f8a2078c0787d1a9de323a2b5a7d) |
 
@@ -373,9 +378,9 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 * **Architecture**: x64
 
 #### Which Windows Download Should I Choose?
-* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.5.zip`) [Recommended]**:  
+* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.6.zip`) [Recommended]**:  
   Completely self-contained with embedded .NET runtime. **Zero installation or runtime dependencies required** — simply extract the zip archive and double-click `WebToExe.Studio.exe` to run immediately on any Windows 10/11 PC without ever seeing a missing .NET runtime prompt!
-* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.5-Lightweight.zip`)**:  
+* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.6-Lightweight.zip`)**:  
   Ultra-compact download (**28.75 MB**). Designed for users who already have or prefer to use a shared system-wide .NET runtime:
   * **Operating System**: Windows 10 (Build 1809+) or Windows 11 (64-bit)
   * **Required Runtime**: **[Microsoft .NET 8.0 Desktop Runtime (x64)](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)** *(Important: You must install the **Desktop** Runtime, not just the base console or ASP.NET Core runtime).*
@@ -385,7 +390,7 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 > **Saw the "You must install or update .NET to run this application" popup?**  
 > If you run the **Lightweight edition** on a computer that does not have the .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
 > 1. Click **"Download it now"** in the Windows dialog (or download directly from the official [Microsoft .NET 8.0 Desktop Runtime x64 Installer](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the installer, and then launch `WebToExe.Studio.exe`.
-> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.5.zip`), which has zero prerequisites and works out of the box with no installations!
+> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.6.zip`), which has zero prerequisites and works out of the box with no installations!
 
 ### Target Output Environments
 * **Windows Executables**: Windows 10 / 11 (64-bit) with WebView2 Runtime
@@ -401,7 +406,7 @@ Encountered an issue or have an idea to make WebToApp Studio Pro even better?
 
 * :memo: **[Submit an Issue or Request](https://github.com/djacidfx/webtoapp-releases/issues)**
 * When submitting bugs, please include:
-  * Your version number (e.g. `v1.5.5`)
+  * Your version number (e.g. `v1.5.6`)
   * Windows OS version
   * Target output platform (Windows / Android / Linux / PWA)
   * Any error logs or screenshots
