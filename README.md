@@ -296,13 +296,10 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.5.3.zip`**<br><sub>`581c13dc14876caa222e7d08afb462a0992f9d976c95fd79ad169f419a060716`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/581c13dc14876caa222e7d08afb462a0992f9d976c95fd79ad169f419a060716) |
-| **`WebToApp-Studio-v1.5.3-Lightweight.zip`**<br><sub>`07bea510ed6a902436f2c34d5f8a2c12aac961818679600de642f4bd72ee38d8`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/07bea510ed6a902436f2c34d5f8a2c12aac961818679600de642f4bd72ee38d8) |
-| **`WebToApp-Studio-Pro_1.5.3_amd64.deb`**<br><sub>`14a3dce999cc8b1be4a26cc5935ef48f46fb6ea188219f718f9f10c3dc1ddf08`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/14a3dce999cc8b1be4a26cc5935ef48f46fb6ea188219f718f9f10c3dc1ddf08) |
-| **`WebToApp-Studio-Pro-Linux-x64-v1.5.3-Portable.tar.gz`**<br><sub>`73e139f1544cd0ad0faa27edde10e16c93ee1691c88f572cdb646fa2fa60fa2c`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/73e139f1544cd0ad0faa27edde10e16c93ee1691c88f572cdb646fa2fa60fa2c) |
-
-> [!NOTE]
-> **Antivirus Verification & False Positive Advisory**: Over 67+ industry-standard security engines on VirusTotal (including **Microsoft Defender, Kaspersky, Bitdefender, Sophos, ESET-NOD32, Avast, Malwarebytes, Google, CrowdStrike Falcon, and SentinelOne**) rate all release packages 100% clean. An isolated detection by Bkav (labeled generically as `W32.Malware.B...`) is a recognized heuristic machine-learning false positive triggered on newly compiled Windows archives that have not yet built up global telemetry reputation. Both Linux packages achieve a flawless 0 detections across all 60+ scanners.
+| **`WebToApp-Studio-v1.5.4.zip`**<br><sub>`10018d02e88d4a6b9ab7e71a87ff80733910a5d2b53736f54f1cd3219d6ba81f`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/10018d02e88d4a6b9ab7e71a87ff80733910a5d2b53736f54f1cd3219d6ba81f) |
+| **`WebToApp-Studio-v1.5.4-Lightweight.zip`**<br><sub>`3a3cbf8b98b22d67f36c6d3829cf52013d815b3a2b93022e9e58e0e591ffa7b3`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/3a3cbf8b98b22d67f36c6d3829cf52013d815b3a2b93022e9e58e0e591ffa7b3) |
+| **`WebToApp-Studio-Pro_1.5.4_amd64.deb`**<br><sub>`f0fcd340483a4f87122d888354273e60c48d79f5fc9cdd8d16c0410476e7257b`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/f0fcd340483a4f87122d888354273e60c48d79f5fc9cdd8d16c0410476e7257b) |
+| **`WebToApp-Studio-Pro-Linux-x64-v1.5.4-Portable.tar.gz`**<br><sub>`5164fcbc552fc8f8e46bacfadc15f148af4d3662574e97be646d3800af6c5409`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/5164fcbc552fc8f8e46bacfadc15f148af4d3662574e97be646d3800af6c5409) |
 
 ---
 
