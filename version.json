@@ -1,16 +1,16 @@
 {
-    "latestVersion":  "1.5.4",
+    "latestVersion":  "1.5.5",
     "releaseDate":  "2026-09-17",
     "mandatory":  false,
     "changelog":  [
-                      "Windows Authenticode Code Signing Pipeline with signtool.exe integration",
-                      "Dual certificate source support: Local PFX/P12 (OV) and Windows Certificate Store (EV hardware tokens like SafeNet/YubiKey) via SHA-1 thumbprint",
-                      "Zero CLI password exposure: Ephemeral in-memory staging prevents credentials from leaking into process arguments",
-                      "RFC 3161 SHA-256 timestamping (http://timestamp.digicert.com) and automated post-build Authenticode verification",
-                      "Non-blocking build pipeline: Preserves output binary on disk with in-place retry signing without full rebuild",
-                      "Encrypted secret storage: AES-256 PBKDF2 container encryption for persisted certificate passwords in .wtp project files"
+                      "Integrated PWA Studio \u0026 Service Worker Generator with full W3C Web App Manifest compliance (manifest.json \u0026 manifest.webmanifest)",
+                      "Pure Vanilla JS Service Worker (~3 KB, 0 npm/Workbox dependencies) with 3 caching strategies: Stale-While-Revalidate, Cache-First, Network-First",
+                      "Branded Glassmorphic Offline Fallback Screen (offline.html) with automatic connection restoration detection and reload",
+                      "W3C 80% maskable safe-zone icon rasterizer (192px, 512px, apple-touch, maskable) with automatic branded fallback generation",
+                      "Non-destructive in-place project injection with idempotence protection, standalone PWA ZIP export, and MultiBuild bundling",
+                      "Studio UI Tab 10 \u0027PWA Studio\u0027 featuring live reactive device mockups (Mobile Phone w/ Android 80% safe zone toggle, Desktop Window, Offline Screen)"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.4/WebToApp-Studio-v1.5.4.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.5/WebToApp-Studio-v1.5.5.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "10018d02e88d4a6b9ab7e71a87ff80733910a5d2b53736f54f1cd3219d6ba81f"
+    "sha256":  "d364b4bed2edbc73532e35db59fd7bf2cbdf929c7d6a88f177e922d3803beb25"
 }
