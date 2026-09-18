@@ -321,7 +321,6 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 - [x] **Documentation & Marketing Assets**:
   - [x] Official Wiki and comprehensive user guides
   - [x] Official product website (`wildcatstudio.us`) with download cards, changelogs, and integrity verification tables
-  - [x] CodeCanyon marketplace description and metadata
 
 ---
 
