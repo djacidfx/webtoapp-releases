@@ -458,25 +458,39 @@ By downloading, running, or using WebToApp Studio Pro, you explicitly agree that
 
 WebToApp Studio Pro is distributed under donationware terms.
 
-# Credits
-## Third-Party Software Notices & Acknowledgments
+# Credits & Third-Party Notices
 
-This application is built using several incredible open-source libraries and platform runtimes. We gratefully acknowledge the following components and their respective developers:
+This application is built using several open-source libraries, platform runtimes, and open standards. We gratefully acknowledge the following components and their respective developers.
 
-*   **Microsoft Edge WebView2 SDK** (Microsoft Corporation) - Used for high-performance Windows desktop wrapping.
-*   **Photino & WebKitGTK** (TryPhotino/GNOME) - Enables lightweight, cross-platform Linux compilation.
-*   **SQLite Engine** (Public Domain) - Powers client-side database capabilities and local script builders.
-*   **Android Open Source Project** (Google LLC) - Base framework for Gradle Android APK and AAB compilation.
-*   **.NET Runtime** (.NET Foundation) - Core processing logic foundation for compilers and security wrappers.
-*   **Inno Setup** (Jordan Russell) - Powers automated deployment and setup generation engines.
-*   ### System Toolchains, Standards & Specifications
+## Core Runtime Engines & Frameworks
 
-*   **Microsoft Windows SDK Utilities** (Microsoft Corporation) - Powers the background Authenticode code signing engine.
-*   **AndroidX Libraries** (Android Open Source Project) - Provides the native mobile interactions, including SwipeRefreshLayout components.
-*   **XDG Desktop Standards** (freedesktop.org) - Governs the native menu structures, launchers, and scheme handlers for Debian and Ubuntu installations.
-*   **W3C & IETF Specifications** (World Wide Web Consortium / Internet Engineering Task Force) - Compliance standards utilized for RFC 3986 URI parsing, RFC 3161 cryptographic timestamping, and Progressive Web App manifests.
+*   **[Microsoft Edge WebView2 SDK](https://microsoft.com)** (Microsoft Corporation) · *Proprietary / Developer License*
+    Used for high-performance Windows desktop wrapping.
+*   **[Photino.NET](https://tryphotino.io) & [WebKitGTK](https://webkitgtk.org)** (TryPhotino / GNOME) · *[MIT] / [LGPL]*
+    Enables lightweight, cross-platform Linux compilation and UI rendering.
+*   **[SQLite Engine](https://sqlite.org)** (The SQLite Team) · *[Public Domain]*
+    Powers client-side database capabilities, transaction models, and local preset builders.
+*   **[Android Open Source Project](https://android.com)** (Google LLC) · *[Apache 2.0]*
+    Base framework and assets for Gradle Android APK and AAB compilation pipelines.
+*   **[.NET Runtime](https://github.com)** (.NET Foundation) · *[MIT]*
+    Core processing logic foundation for compilers, file writing, and security wrappers.
+*   **[Inno Setup](https://jrsoftware.org)** (Jordan Russell / Martijn Laan) · *[Inno Setup License]*
+    Powers automated deployment, registry configurations, and setup generation engines.
 
+## System Toolchains, Standards & Specifications
 
-More Coming Soon
+*   **Microsoft Windows SDK Utilities** (Microsoft Corporation) · *Proprietary*
+    Powers the background Authenticode code signing validation stage via `signtool.exe`.
+*   **Microsoft Win32 Subsystems & Core IPC** (Microsoft Corporation) · *Proprietary*
+    Handles native window restoration, foreground locking, and asynchronous inter-process named pipe communication.
+*   **AndroidX Libraries** (Android Open Source Project) · *[Apache 2.0]*
+    Provides native mobile interactions, lifecycle handlers, and `SwipeRefreshLayout` layout components.
+*   **[XDG Desktop Standards](https://freedesktop.org)** (freedesktop.org) · *Open Standard*
+    Governs native menu structures, launcher integrations (`.desktop`), and custom scheme handlers for Debian/Ubuntu environments.
+*   **W3C & IETF Specifications** (W3C / IETF) · *Open Standards*
+    Compliance guidelines utilized for RFC 3986 URI parsing, RFC 3161 cryptographic timestamping, and Progressive Web App manifests.
+
+---
+*More components coming soon.*
 
 Copyright (c) 2026 **Wildcat Studio**. All rights reserved.
