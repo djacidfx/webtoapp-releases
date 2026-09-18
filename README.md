@@ -454,14 +454,20 @@ By downloading, running, or using WebToApp Studio Pro, you explicitly agree that
 
 ---
 
-# Software License & Distribution
+# End User License Agreement (EULA)
 
-## Donationware Terms
-**WebToApp Studio Pro** is distributed as **Donationware**. 
+## 1. Grant of License & Terms
+**WebToApp Studio Pro** is distributed under a **Donationware** model. You are granted a non-exclusive license to use this software free of charge for personal, educational, or commercial production workflows. 
 
-This software is 100% free to use for both personal and commercial purposes, with no functional limitations, time trials, or hidden fees. It is funded entirely by the voluntary contributions of its users. If you find value in this tool and wish to support its continued development, optimization, and maintenance, please consider making a donation.
+## 2. Voluntary Contributions
+There are no mandatory licensing fees, paywalls, or feature restrictions. Financial support for this project is entirely voluntary. Donations go directly toward toolchain updates, security auditing, and maintaining target export compatibility.
 
-[Support Development / Make a Donation]
+## 3. Restrictions
+* You may not redistribute, repackage, or sell this application as a standalone commercial item without prior written consent.
+* Reverse engineering, tampering with binary encryption modules, or modifying the asset compiler pipeline is strictly prohibited.
+
+## 4. Disclaimer of Warranty
+This software is provided "as-is" without warranty of any kind, express or implied. In no event shall the authors be liable for any claim, damages, or other liability arising from the use of this software.
 
 
 # Credits & Third-Party Notices
