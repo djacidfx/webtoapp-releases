@@ -469,6 +469,13 @@ This application is built using several incredible open-source libraries and pla
 *   **Android Open Source Project** (Google LLC) - Base framework for Gradle Android APK and AAB compilation.
 *   **.NET Runtime** (.NET Foundation) - Core processing logic foundation for compilers and security wrappers.
 *   **Inno Setup** (Jordan Russell) - Powers automated deployment and setup generation engines.
+*   ### System Toolchains, Standards & Specifications
+
+*   **Microsoft Windows SDK Utilities** (Microsoft Corporation) - Powers the background Authenticode code signing engine.
+*   **AndroidX Libraries** (Android Open Source Project) - Provides the native mobile interactions, including SwipeRefreshLayout components.
+*   **XDG Desktop Standards** (freedesktop.org) - Governs the native menu structures, launchers, and scheme handlers for Debian and Ubuntu installations.
+*   **W3C & IETF Specifications** (World Wide Web Consortium / Internet Engineering Task Force) - Compliance standards utilized for RFC 3986 URI parsing, RFC 3161 cryptographic timestamping, and Progressive Web App manifests.
+
 
 More Coming Soon
 
