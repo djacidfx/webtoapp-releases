@@ -1,15 +1,13 @@
 {
-    "latestVersion":  "1.5.9",
-    "releaseDate":  "2026-09-17",
+    "latestVersion":  "1.6.0",
+    "releaseDate":  "2026-09-18",
     "mandatory":  false,
     "changelog":  [
-                      "Instant Page Refresh via F5, Ctrl+F5, Ctrl+R, and Ctrl+Shift+R with automatic cache bypass",
-                      "Toggleable Disable HTTP Cache to force live network resource fetching",
-                      "Toggleable Clear Disk Cache on Launch to purge WebView2 cache profile upon app startup",
-                      "Stateful offline recovery restoring users active page on connection resumption",
-                      "All 19 automated packaging and security pipelines validated"
+                      "Native OS Notifications Engine with W3C Notification API interception and anti-flood rate limiting",
+                      "WordPress Companion Studio generating zero-dependency WordPress companion plugins with version endpoint and smart download banners",
+                      "Donationware licensing model and ecosystem updates"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.5.9/WebToApp-Studio-v1.5.9.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.6.0/WebToApp-Studio-v1.6.0.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "5dc83d266a35aff497f3b6ec87bbbf680d8042fd27f211ef39a71eebf5783ec8"
+    "sha256":  "cedf9aad0733b39f735f3191ff361cab3c8a2c2144634a5a752726d7ce33ea3d"
 }
