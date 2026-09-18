@@ -459,6 +459,17 @@ By downloading, running, or using WebToApp Studio Pro, you explicitly agree that
 WebToApp Studio Pro is distributed under donationware terms.
 
 # Credits
-Coming soon
+## Third-Party Software Notices & Acknowledgments
+
+This application is built using several incredible open-source libraries and platform runtimes. We gratefully acknowledge the following components and their respective developers:
+
+*   **Microsoft Edge WebView2 SDK** (Microsoft Corporation) - Used for high-performance Windows desktop wrapping.
+*   **Photino & WebKitGTK** (TryPhotino/GNOME) - Enables lightweight, cross-platform Linux compilation.
+*   **SQLite Engine** (Public Domain) - Powers client-side database capabilities and local script builders.
+*   **Android Open Source Project** (Google LLC) - Base framework for Gradle Android APK and AAB compilation.
+*   **.NET Runtime** (.NET Foundation) - Core processing logic foundation for compilers and security wrappers.
+*   **Inno Setup** (Jordan Russell) - Powers automated deployment and setup generation engines.
+
+More Coming Soon
 
 Copyright (c) 2026 **Wildcat Studio**. All rights reserved.
