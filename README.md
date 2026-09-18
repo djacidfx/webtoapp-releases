@@ -425,50 +425,60 @@ If **WebToApp Studio Pro** accelerates your workflows and helps you deliver clie
 ---
 
 <a id="legal-disclaimer"></a>
-## :balance_scale: Legal Disclaimer & Acceptable Use Policy
+# Legal Disclaimer, Acceptable Use Policy, and End User License Agreement
 
-### 1. Important Legal Notice
-**WebToApp Studio Pro** is a software utility developed to help developers, creators, and website owners package **their own** web applications, static websites, and games into native executables for Windows, Android, Ubuntu Linux, and Progressive Web Apps (PWA).
-
-The author/maintainers of WebToApp Studio Pro do not own, control, host, review, or endorse any third-party websites, applications, assets, or content packaged or distributed by end users of this software.
-
-### 2. Prohibited Uses & Unacceptable Conduct
-By downloading, running, or using WebToApp Studio Pro, you explicitly agree that you will **NOT** use this software to:
-
-* **Impersonate or Phish**: Create applications that impersonate financial institutions, government agencies, social networks, or third-party brands, or engage in credential harvesting, fraud, or social engineering.
-* **Infringe Intellectual Property**: Package, distribute, or monetize websites, web applications, media, games, or trademarks that you do not own or for which you have not obtained explicit written authorization and licensing from the rightful copyright holder.
-* **Distribute Malicious Software**: Package or inject malware, spyware, ransomware, keyloggers, unauthorized tracking scripts, cryptominers, or any code designed to disrupt, damage, or gain unauthorized access to any system or user data.
-* **Bypass Access Controls or Paywalls**: Circumvent authentication mechanisms, digital rights management (DRM), paywalls, or terms of service of third-party platforms.
-* **Violate Platform & Store Policies**: Submit applications to the Microsoft Store, Google Play Store, or Linux package repositories that violate their respective developer distribution agreements, privacy guidelines, or content policies.
-
-### 3. Limitation of Liability & Warranty Disclaimer
-* **"AS-IS" Provision**: This software is provided *"as is"*, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
-* **Zero Liability**: In no event shall the authors, copyright holders, or contributors be liable for any claim, damages, legal actions, criminal prosecution, civil liability, loss of data, loss of profits, or regulatory penalties arising from, out of, or in connection with the software, its use, or the packaging and distribution of any third-party applications created with it.
-* **User Indemnification**: The user of this tool assumes 100% full legal responsibility and liability for all applications, packages, domains, and assets generated, signed, or distributed using WebToApp Studio Pro.
-
-### 4. Trademark Attribution
-* "Windows", "Microsoft Store", "WebView2", and "MSIX" are trademarks of Microsoft Corporation.
-* "Android", "Google Play", and "Chromium" are trademarks of Google LLC.
-* "Ubuntu" is a registered trademark of Canonical Ltd.
-* All trademarks, logos, and brand names mentioned are the property of their respective owners and are used strictly for identification and compatibility purposes. Their mention does not imply endorsement or affiliation.
+> [!IMPORTANT]
+> PLEASE READ THIS CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING WEBTOAPP STUDIO PRO. BY ENGAGING WITH THIS SOFTWARE, YOU EXPRESSLY AGREE TO BE BOUND BY ALL TERMS, CONDITIONS, AND RESTRICTIONS OUTLINED BELOW.
 
 ---
 
-# End User License Agreement (EULA)
+## Part 1: Legal Disclaimer & Acceptable Use Policy (AUP)
 
-## 1. Grant of License & Terms
-**WebToApp Studio Pro** is distributed under a **Donationware** model. You are granted a non-exclusive license to use this software free of charge for personal, educational, or commercial production workflows. 
+### 1. Scope of Utility & Content Disclaimer
+**WebToApp Studio Pro** is provided strictly as a technical compilation utility. It is designed to assist software developers, system administrators, and content creators in packaging **their own legally owned or authorized** web applications, static websites, and assets into standalone native binaries for Windows, Android, Linux, and Progressive Web App (PWA) environments.
 
-## 2. Voluntary Contributions
-There are no mandatory licensing fees, paywalls, or feature restrictions. Financial support for this project is entirely voluntary. Donations go directly toward toolchain updates, security auditing, and maintaining target export compatibility.
+The author, maintainers, and contributors (collectively, "the Licensor") do not own, host, review, moderate, monitor, or exercise control over any third-party websites, source domains, scripts, assets, or content packaged or distributed by end users of this software. The Licensor explicitly disclaims any endorsement of, or affiliation with, applications compiled using this utility.
 
-## 3. Restrictions
-* You may not redistribute, repackage, or sell this application as a standalone commercial item without prior written consent.
-* Reverse engineering, tampering with binary encryption modules, or modifying the asset compiler pipeline is strictly prohibited.
+### 2. Prohibited Uses & Unacceptable Conduct
+You agree to use WebToApp Studio Pro strictly in compliance with all applicable local, national, and international laws. You are **expressly prohibited** from using this software to:
 
-## 4. Disclaimer of Warranty
-This software is provided "as-is" without warranty of any kind, express or implied. In no event shall the authors be liable for any claim, damages, or other liability arising from the use of this software.
+*   **Deceive, Defraud, or Phish:** Generate applications designed to impersonate financial institutions, government agencies, corporate entities, social networks, or third-party brands, or to engage in unauthorized credential harvesting, social engineering, or deceptive practices.
+*   **Infringe Intellectual Property:** Package, compile, distribute, or commercialize any code, trademark, media asset, or proprietary web service that you do not own, or for which you lack explicit, written authorization and licensing from the rightful copyright holder.
+*   **Deploy Malicious Payloads:** Package, embed, or inject malware, ransomware, spyware, keyloggers, unauthorized tracking telemetry, cryptominers, or any software designed to disrupt, degrade, or gain unauthorized access to computer systems or user data.
+*   **Circumvent Protections:** Bypass digital rights management (DRM), user authentication systems, paywalls, or explicit terms of service governing third-party web platforms.
+*   **Violate Marketplace Rules:** Compile or submit packages to public repositories or app marketplaces (including the Microsoft Store and Google Play Store) that violate their respective Developer Distribution Agreements, Program Policies, or content guidelines.
 
+### 3. Comprehensive Limitation of Liability & Indemnification
+*   **"As-Is" Provision:** This software is provided to the fullest extent permitted by law on an **"AS IS"** and **"AS AVAILABLE"** basis, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, non-infringement, or operational continuity.
+*   **Exclusion of Damages:** In no event shall the Licensor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages, or any liability whatsoever—whether in an action of contract, strict liability, or tort (including negligence)—arising out of or in connection with the use, performance, compilation capabilities, or downstream distribution of packages created with this software. This includes, without limitation, loss of data, loss of profits, system downtime, statutory penalties, regulatory fines, civil claims, or criminal prosecution.
+*   **Indemnification:** You agree to fully indemnify, defend, and hold harmless the Licensor from and against any and all claims, liabilities, losses, expenses, damages, and costs (including reasonable attorneys' fees) arising out of your misuse of the software, your breach of this agreement, or any intellectual property infringement or illegal activity tied to binaries you generate using this utility.
+
+---
+
+## Part 2: End User License Agreement (EULA)
+
+### 1. Grant of License
+WebToApp Studio Pro is distributed under a **Donationware** licensing model. Subject to your strict compliance with the terms of this Agreement, you are granted a non-exclusive, non-transferable, royalty-free license to install and use the software for personal, educational, or commercial production workflows. 
+
+### 2. Voluntary Contributions
+There are no mandatory licensing fees, subscriptions, feature paywalls, or operational limitations. Financial contributions are entirely voluntary and go directly toward technical updates, security auditing, target framework compatibility maintenance, and ongoing open-source support.
+
+### 3. Operational & Distribution Restrictions
+*   **No Commercial Resale:** You may not sell, rent, lease, sublicense, distribute, or repackage WebToApp Studio Pro itself as a standalone commercial product, component, or service without prior explicit written consent from the Licensor.
+*   **Reverse Engineering:** You may not reverse engineer, decompile, disassemble, modify, or attempt to extract the underlying source code of WebToApp Studio Pro's core binary sealing mechanisms, encryption modules, or compiler pipelines, except to the extent that applicable law explicitly prohibits such restrictions.
+
+### 4. General Provisions
+*   **Severability:** If any provision of this Agreement is held to be unenforceable, invalid, or illegal under applicable jurisdiction, that provision shall be modified to achieve its original intent as closely as possible, and the remaining provisions of this Agreement shall remain in full force and effect.
+*   **Governing Law:** This Agreement and any disputes arising out of it shall be governed by and construed in accordance with the laws of the jurisdiction in which the principal Licensor resides, without regard to conflict of law principles.
+
+---
+
+## Part 3: Trademark Notices
+
+*   **Microsoft Windows, Microsoft Store, WebView2, and MSIX** are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries.
+*   **Android, Google Play, and Chromium** are trademarks or registered trademarks of Google LLC.
+*   **Ubuntu** is a registered trademark of Canonical Ltd.
+*   All other third-party trademarks, product names, logos, and brands referenced in this documentation are the property of their respective owners. Their inclusion here is strictly for identification, interoperability, and system compatibility mapping, and does not imply endorsement, sponsorship, or corporate affiliation.
 
 # Credits & Third-Party Notices
 
