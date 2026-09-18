@@ -454,9 +454,15 @@ By downloading, running, or using WebToApp Studio Pro, you explicitly agree that
 
 ---
 
-## :page_facing_up: Donationware License
+# Software License & Distribution
 
-WebToApp Studio Pro is distributed under donationware terms.
+## Donationware Terms
+**WebToApp Studio Pro** is distributed as **Donationware**. 
+
+This software is 100% free to use for both personal and commercial purposes, with no functional limitations, time trials, or hidden fees. It is funded entirely by the voluntary contributions of its users. If you find value in this tool and wish to support its continued development, optimization, and maintenance, please consider making a donation.
+
+[Support Development / Make a Donation]
+
 
 # Credits & Third-Party Notices
 
