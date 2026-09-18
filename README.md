@@ -1,6 +1,6 @@
 # WebToApp Studio Pro :rocket:
 
-> **Commercial Cross-Platform Web-to-Desktop & Mobile Packaging Engine**  
+> **Donationware Cross-Platform Web-to-Desktop & Mobile Packaging Engine**  
 > Turn any Website URL or Local Static HTML5/CSS/JS Folder into Standalone Windows Executables, Google Play Android Apps, and Ubuntu Linux Debian Packages.
 
 [![Latest Release](https://img.shields.io/github/v/release/djacidfx/webtoapp-releases?style=flat-square&color=success&label=Latest%20Release)](https://github.com/djacidfx/webtoapp-releases/releases/latest)
@@ -8,15 +8,12 @@
 [![Engines](https://img.shields.io/badge/Engines-WebView2%20%7C%20Android%20WebView%20%7C%20WebKitGTK-orange?style=flat-square)](#)
 [![Documentation](https://img.shields.io/badge/Documentation-Official%20Wiki-purple?style=flat-square)](https://github.com/djacidfx/webtoapp-releases/wiki)
 [![License](https://img.shields.io/badge/License-Donationware-green?style=flat-square)](https://github.com/djacidfx/webtoapp-releases/releases)
-![GitHub followers](https://img.shields.io/github/followers/djacidfx)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/djacidfx/webtoapp-releases/total)
-
 
 ---
 
 ## :zap: Quick Navigation
 
-* :package: **[Download Latest Release (v1.5.9)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
+* :package: **[Download Latest Release (v1.6.0)](https://github.com/djacidfx/webtoapp-releases/releases/latest)**
 * :white_check_mark: **[Complete Feature Checklist & Architecture Capabilities](#feature-checklist)**
 * :shield: **[Release Integrity & VirusTotal Scan Verification](#release-integrity)**
 * :books: **[Official Documentation & User Guides (Wiki)](https://github.com/djacidfx/webtoapp-releases/wiki)**
@@ -29,12 +26,12 @@
 
 ## :book: Overview
 
-**WebToApp Studio Pro** is a high-performance commercial grade utility designed for web developers, software entrepreneurs, SaaS creators, game developers, and digital agencies. It transforms any **Live Website URL** or **Local Static HTML5/CSS/JS Folder** into standalone, production-ready software across three major operating systems:
+**WebToApp Studio Pro** is a high-performance donationware utility designed for web developers, software entrepreneurs, SaaS creators, game developers, and digital agencies. It transforms any **Live Website URL** or **Local Static HTML5/CSS/JS Folder** into standalone, production-ready software across three major operating systems:
 
 1. **:window: Windows Executables (`.exe`)**:
    * Powered by **Microsoft Edge WebView2** with ultra-compact resource footprint (~14 MB vs 150MB+ Electron wrappers).
    * **Virtual HTTPS Host (`https://app.local/`)**: Eliminates `file://` protocol CORS restrictions -- Canvas, Web Audio API, IndexedDB, and ES6 modules run seamlessly offline.
-   * **Commercial Binary Sealing**: HTML/JS/CSS assets can be encrypted with AES-256 and streamed in-memory with zero plaintext files exposed on the user's disk.
+   * **Donationware Binary Sealing**: HTML/JS/CSS assets can be encrypted with AES-256 and streamed in-memory with zero plaintext files exposed on the user's disk.
    * Multi-resolution `.ico` icon injection, splash screens, system tray minimization, single instance mutex, and full window customization.
 
 2. **:department_store: Microsoft Store Packages (`.msix`)**:
@@ -89,7 +86,7 @@
 <a id="feature-checklist"></a>
 ## :white_check_mark: Complete Feature Checklist & Architecture Capabilities
 
-Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.5.9**:
+Comprehensive internal feature checklist and capability tracker reflecting all features, architectures, export platforms, and security controls through **v1.6.0**:
 
 ### 1. Dual Source Processing & Asset Pipeline
 - [x] **Website URL Mode**:
@@ -102,7 +99,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 - [x] **Zero-CORS Virtual Host Engine**:
   - [x] Internal virtual host mapping (`https://app.local/`) avoiding `file://` protocol security restrictions
   - [x] Eliminates CORS errors when loading fonts, audio, JSON data, Web Workers, or assets
-- [x] **Commercial Binary Sealing & Asset Encryption**:
+- [x] **Donationware Binary Sealing & Asset Encryption**:
   - [x] AES-256 binary encryption for all local HTML/CSS/JS/media assets
   - [x] Direct in-memory decryption and streaming into WebView2 / AssetLoader
   - [x] Zero plaintext files exposed on the user's disk
@@ -243,7 +240,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ---
 
-### 8. Commercial Security & Sandbox Controls
+### 8. Enterprise Security & Sandbox Controls
 - [x] **Hardened Web Runtime**:
   - [x] Disable Developer Tools (F12, Ctrl+Shift+I, Inspect Element shortcuts)
   - [x] Disable Right-Click Context Menu
@@ -321,6 +318,30 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 - [x] **Documentation & Marketing Assets**:
   - [x] Official Wiki and comprehensive user guides
   - [x] Official product website (`wildcatstudio.us`) with download cards, changelogs, and integrity verification tables
+  - [x] CodeCanyon marketplace description and metadata
+
+---
+
+### 11. Native OS Notifications Engine & Security Bridge
+- [x] **HTML5 Notification API Interception**:
+  - [x] Full polyfill mapping `window.Notification` directly to native OS notification center
+  - [x] Automated primary domain permission auto-granting (`CoreWebView2.PermissionRequested`)
+  - [x] Strict cross-origin iframe notification execution blocking (`SecurityError` & origin isolation)
+  - [x] Sliding-window anti-flood rate limiter (`NotificationRateLimiter`, max per minute throttling)
+  - [x] HTML tag stripping, character escaping, and length truncation (`NotificationManager.SanitizeTitle`, `NotificationManager.SanitizeBody`)
+  - [x] Native Windows system tray balloon / toast display with click-to-foreground restoration
+  - [x] Multi-tier audio alert system (SystemDefault, Chime, Subtle, Mute)
+
+---
+
+### 12. WordPress Companion Studio & Official Plugin Generator
+- [x] **Zero-Dependency Core WordPress Plugin Generator**:
+  - [x] Pure PHP GPL-v2 compliant plugin output with zero external dependencies (`WordPressPluginGenerator.cs`)
+  - [x] In-app view optimization (`X-WebToApp-Client` header & User-Agent detection, auto-hiding `#wpadminbar`, `.site-header`, `.site-footer`, `.cookie-law-info-bar`)
+  - [x] Smart App Promotion Banner (`.webtoapp-smart-banner`, customizable top header or bottom floating, `.w2a-cta-btn`)
+  - [x] Client-side dismissal tracking via cookie & localStorage (`w2a_banner_dismissed`)
+  - [x] Self-hosted REST API update manifest endpoint (`/wp-json/webtoapp/v1/version`)
+  - [x] Admin settings panel (`wp-admin > Settings > WebToApp Companion`) with `wp_verify_nonce` CSRF defense and `current_user_can('manage_options')`
 
 ---
 
@@ -328,7 +349,7 @@ Comprehensive internal feature checklist and capability tracker reflecting all f
 
 ### 1. Download & Run
 1. Go to the **[Latest Release](https://github.com/djacidfx/webtoapp-releases/releases/latest)**.
-2. Download the distribution ZIP: `WebToApp-Studio-v1.5.9.zip`.
+2. Download the distribution ZIP: `WebToApp-Studio-v1.6.0.zip`.
 3. Extract the ZIP archive on your Windows machine.
 4. Open the `01-WebToApp-Studio/` directory and double-click **`WebToExe.Studio.exe`**.
 
@@ -365,8 +386,8 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 
 | Distribution Package | Target Platform | Security Status | VirusTotal Verification |
 |---|---|:---:|:---:|
-| **`WebToApp-Studio-v1.5.9.zip`**<br><sub>`5dc83d266a35aff497f3b6ec87bbbf680d8042fd27f211ef39a71eebf5783ec8`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/5dc83d266a35aff497f3b6ec87bbbf680d8042fd27f211ef39a71eebf5783ec8) |
-| **`WebToApp-Studio-v1.5.9-Lightweight.zip`**<br><sub>`5b3fca4a325343ab932719acafee76bc0de1c33ebe4daa3947eacd90b9d63ae6`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/5b3fca4a325343ab932719acafee76bc0de1c33ebe4daa3947eacd90b9d63ae6) |
+| **`WebToApp-Studio-v1.6.0.zip`**<br><sub>`5dc83d266a35aff497f3b6ec87bbbf680d8042fd27f211ef39a71eebf5783ec8`</sub> | Windows Standalone (Zero-Config Zip) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/5dc83d266a35aff497f3b6ec87bbbf680d8042fd27f211ef39a71eebf5783ec8) |
+| **`WebToApp-Studio-v1.6.0-Lightweight.zip`**<br><sub>`5b3fca4a325343ab932719acafee76bc0de1c33ebe4daa3947eacd90b9d63ae6`</sub> | Windows Lightweight (Requires .NET 8) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/5b3fca4a325343ab932719acafee76bc0de1c33ebe4daa3947eacd90b9d63ae6) |
 | **`WebToApp-Studio-Pro_1.5.9_amd64.deb`**<br><sub>`dea4977b66e92493add701b251f6f77dab8738a67d93174f7f5c423397185d45`</sub> | Ubuntu / Debian (.deb) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/dea4977b66e92493add701b251f6f77dab8738a67d93174f7f5c423397185d45) |
 | **`WebToApp-Studio-Pro-Linux-x64-v1.5.9-Portable.tar.gz`**<br><sub>`0fd3ce1513d524b11b7154f84258c01ef00a746f1c89c1ac15f9b2465263aade`</sub> | Linux x64 (.tar.gz) | :white_check_mark: Clean | [Inspect 70+ Engines &rarr;](https://www.virustotal.com/gui/file/0fd3ce1513d524b11b7154f84258c01ef00a746f1c89c1ac15f9b2465263aade) |
 
@@ -380,9 +401,9 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 * **Architecture**: x64
 
 #### Which Windows Download Should I Choose?
-* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.5.9.zip`) [Recommended]**:  
+* **:sparkles: Standalone Edition (`WebToApp-Studio-v1.6.0.zip`) [Recommended]**:  
   Completely self-contained with embedded .NET runtime. **Zero installation or runtime dependencies required** — simply extract the zip archive and double-click `WebToExe.Studio.exe` to run immediately on any Windows 10/11 PC without ever seeing a missing .NET runtime prompt!
-* **:feather: Lightweight Edition (`WebToApp-Studio-v1.5.9-Lightweight.zip`)**:  
+* **:feather: Lightweight Edition (`WebToApp-Studio-v1.6.0-Lightweight.zip`)**:  
   Ultra-compact download (**28.75 MB**). Designed for users who already have or prefer to use a shared system-wide .NET runtime:
   * **Operating System**: Windows 10 (Build 1809+) or Windows 11 (64-bit)
   * **Required Runtime**: **[Microsoft .NET 8.0 Desktop Runtime (x64)](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)** *(Important: You must install the **Desktop** Runtime, not just the base console or ASP.NET Core runtime).*
@@ -392,7 +413,7 @@ All release binaries are cryptographically signed, SHA-256 hashed, and independe
 > **Saw the "You must install or update .NET to run this application" popup?**  
 > If you run the **Lightweight edition** on a computer that does not have the .NET 8 Desktop Runtime installed yet, Windows will prompt you to install it:
 > 1. Click **"Download it now"** in the Windows dialog (or download directly from the official [Microsoft .NET 8.0 Desktop Runtime x64 Installer](https://aka.ms/dotnet/8.0/windowsdesktop-runtime-win-x64.exe)), run the installer, and then launch `WebToExe.Studio.exe`.
-> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.5.9.zip`), which has zero prerequisites and works out of the box with no installations!
+> 2. **Alternatively**, download the **Standalone Edition** (`WebToApp-Studio-v1.6.0.zip`), which has zero prerequisites and works out of the box with no installations!
 
 ### Target Output Environments
 * **Windows Executables**: Windows 10 / 11 (64-bit) with WebView2 Runtime
@@ -408,7 +429,7 @@ Encountered an issue or have an idea to make WebToApp Studio Pro even better?
 
 * :memo: **[Submit an Issue or Request](https://github.com/djacidfx/webtoapp-releases/issues)**
 * When submitting bugs, please include:
-  * Your version number (e.g. `v1.5.9`)
+  * Your version number (e.g. `v1.6.0`)
   * Windows OS version
   * Target output platform (Windows / Android / Linux / PWA)
   * Any error logs or screenshots
@@ -425,94 +446,37 @@ If **WebToApp Studio Pro** accelerates your workflows and helps you deliver clie
 ---
 
 <a id="legal-disclaimer"></a>
-# Legal Disclaimer, Acceptable Use Policy, and End User License Agreement
+## :balance_scale: Legal Disclaimer & Acceptable Use Policy
 
-> [!IMPORTANT]
-> PLEASE READ THIS CAREFULLY BEFORE DOWNLOADING, INSTALLING, OR USING WEBTOAPP STUDIO PRO. BY ENGAGING WITH THIS SOFTWARE, YOU EXPRESSLY AGREE TO BE BOUND BY ALL TERMS, CONDITIONS, AND RESTRICTIONS OUTLINED BELOW.
+### 1. Important Legal Notice
+**WebToApp Studio Pro** is a software utility developed to help developers, creators, and website owners package **their own** web applications, static websites, and games into native executables for Windows, Android, Ubuntu Linux, and Progressive Web Apps (PWA).
 
----
-
-## Part 1: Legal Disclaimer & Acceptable Use Policy (AUP)
-
-### 1. Scope of Utility & Content Disclaimer
-**WebToApp Studio Pro** is provided strictly as a technical compilation utility. It is designed to assist software developers, system administrators, and content creators in packaging **their own legally owned or authorized** web applications, static websites, and assets into standalone native binaries for Windows, Android, Linux, and Progressive Web App (PWA) environments.
-
-The author, maintainers, and contributors (collectively, "the Licensor") do not own, host, review, moderate, monitor, or exercise control over any third-party websites, source domains, scripts, assets, or content packaged or distributed by end users of this software. The Licensor explicitly disclaims any endorsement of, or affiliation with, applications compiled using this utility.
+The author/maintainers of WebToApp Studio Pro do not own, control, host, review, or endorse any third-party websites, applications, assets, or content packaged or distributed by end users of this software.
 
 ### 2. Prohibited Uses & Unacceptable Conduct
-You agree to use WebToApp Studio Pro strictly in compliance with all applicable local, national, and international laws. You are **expressly prohibited** from using this software to:
+By downloading, running, or using WebToApp Studio Pro, you explicitly agree that you will **NOT** use this software to:
 
-*   **Deceive, Defraud, or Phish:** Generate applications designed to impersonate financial institutions, government agencies, corporate entities, social networks, or third-party brands, or to engage in unauthorized credential harvesting, social engineering, or deceptive practices.
-*   **Infringe Intellectual Property:** Package, compile, distribute, or commercialize any code, trademark, media asset, or proprietary web service that you do not own, or for which you lack explicit, written authorization and licensing from the rightful copyright holder.
-*   **Deploy Malicious Payloads:** Package, embed, or inject malware, ransomware, spyware, keyloggers, unauthorized tracking telemetry, cryptominers, or any software designed to disrupt, degrade, or gain unauthorized access to computer systems or user data.
-*   **Circumvent Protections:** Bypass digital rights management (DRM), user authentication systems, paywalls, or explicit terms of service governing third-party web platforms.
-*   **Violate Marketplace Rules:** Compile or submit packages to public repositories or app marketplaces (including the Microsoft Store and Google Play Store) that violate their respective Developer Distribution Agreements, Program Policies, or content guidelines.
+* **Impersonate or Phish**: Create applications that impersonate financial institutions, government agencies, social networks, or third-party brands, or engage in credential harvesting, fraud, or social engineering.
+* **Infringe Intellectual Property**: Package, distribute, or monetize websites, web applications, media, games, or trademarks that you do not own or for which you have not obtained explicit written authorization and licensing from the rightful copyright holder.
+* **Distribute Malicious Software**: Package or inject malware, spyware, ransomware, keyloggers, unauthorized tracking scripts, cryptominers, or any code designed to disrupt, damage, or gain unauthorized access to any system or user data.
+* **Bypass Access Controls or Paywalls**: Circumvent authentication mechanisms, digital rights management (DRM), paywalls, or terms of service of third-party platforms.
+* **Violate Platform & Store Policies**: Submit applications to the Microsoft Store, Google Play Store, or Linux package repositories that violate their respective developer distribution agreements, privacy guidelines, or content policies.
 
-### 3. Comprehensive Limitation of Liability & Indemnification
-*   **"As-Is" Provision:** This software is provided to the fullest extent permitted by law on an **"AS IS"** and **"AS AVAILABLE"** basis, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, non-infringement, or operational continuity.
-*   **Exclusion of Damages:** In no event shall the Licensor be liable for any direct, indirect, incidental, special, exemplary, or consequential damages, or any liability whatsoever—whether in an action of contract, strict liability, or tort (including negligence)—arising out of or in connection with the use, performance, compilation capabilities, or downstream distribution of packages created with this software. This includes, without limitation, loss of data, loss of profits, system downtime, statutory penalties, regulatory fines, civil claims, or criminal prosecution.
-*   **Indemnification:** You agree to fully indemnify, defend, and hold harmless the Licensor from and against any and all claims, liabilities, losses, expenses, damages, and costs (including reasonable attorneys' fees) arising out of your misuse of the software, your breach of this agreement, or any intellectual property infringement or illegal activity tied to binaries you generate using this utility.
+### 3. Limitation of Liability & Warranty Disclaimer
+* **"AS-IS" Provision**: This software is provided *"as is"*, without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, and non-infringement.
+* **Zero Liability**: In no event shall the authors, copyright holders, or contributors be liable for any claim, damages, legal actions, criminal prosecution, civil liability, loss of data, loss of profits, or regulatory penalties arising from, out of, or in connection with the software, its use, or the packaging and distribution of any third-party applications created with it.
+* **User Indemnification**: The user of this tool assumes 100% full legal responsibility and liability for all applications, packages, domains, and assets generated, signed, or distributed using WebToApp Studio Pro.
 
----
-
-## Part 2: End User License Agreement (EULA)
-
-### 1. Grant of License
-WebToApp Studio Pro is distributed under a **Donationware** licensing model. Subject to your strict compliance with the terms of this Agreement, you are granted a non-exclusive, non-transferable, royalty-free license to install and use the software for personal, educational, or commercial production workflows. 
-
-### 2. Voluntary Contributions
-There are no mandatory licensing fees, subscriptions, feature paywalls, or operational limitations. Financial contributions are entirely voluntary and go directly toward technical updates, security auditing, target framework compatibility maintenance, and ongoing open-source support.
-
-### 3. Operational & Distribution Restrictions
-*   **No Commercial Resale:** You may not sell, rent, lease, sublicense, distribute, or repackage WebToApp Studio Pro itself as a standalone commercial product, component, or service without prior explicit written consent from the Licensor.
-*   **Reverse Engineering:** You may not reverse engineer, decompile, disassemble, modify, or attempt to extract the underlying source code of WebToApp Studio Pro's core binary sealing mechanisms, encryption modules, or compiler pipelines, except to the extent that applicable law explicitly prohibits such restrictions.
-
-### 4. General Provisions
-*   **Severability:** If any provision of this Agreement is held to be unenforceable, invalid, or illegal under applicable jurisdiction, that provision shall be modified to achieve its original intent as closely as possible, and the remaining provisions of this Agreement shall remain in full force and effect.
-*   **Governing Law:** This Agreement and any disputes arising out of it shall be governed by and construed in accordance with the laws of the jurisdiction in which the principal Licensor resides, without regard to conflict of law principles.
+### 4. Trademark Attribution
+* "Windows", "Microsoft Store", "WebView2", and "MSIX" are trademarks of Microsoft Corporation.
+* "Android", "Google Play", and "Chromium" are trademarks of Google LLC.
+* "Ubuntu" is a registered trademark of Canonical Ltd.
+* All trademarks, logos, and brand names mentioned are the property of their respective owners and are used strictly for identification and compatibility purposes. Their mention does not imply endorsement or affiliation.
 
 ---
 
-## Part 3: Trademark Notices
+## :page_facing_up: Donationware License
 
-*   **Microsoft Windows, Microsoft Store, WebView2, and MSIX** are trademarks or registered trademarks of Microsoft Corporation in the United States and/or other countries.
-*   **Android, Google Play, and Chromium** are trademarks or registered trademarks of Google LLC.
-*   **Ubuntu** is a registered trademark of Canonical Ltd.
-*   All other third-party trademarks, product names, logos, and brands referenced in this documentation are the property of their respective owners. Their inclusion here is strictly for identification, interoperability, and system compatibility mapping, and does not imply endorsement, sponsorship, or corporate affiliation.
-
-# Credits & Third-Party Notices
-
-This application is built using several open-source libraries, platform runtimes, and open standards. We gratefully acknowledge the following components and their respective developers.
-
-## Core Runtime Engines & Frameworks
-
-*   **[Microsoft Edge WebView2 SDK](https://microsoft.com)** (Microsoft Corporation) · *Proprietary / Developer License*
-    Used for high-performance Windows desktop wrapping.
-*   **[Photino.NET](https://tryphotino.io) & [WebKitGTK](https://webkitgtk.org)** (TryPhotino / GNOME) · *[MIT] / [LGPL]*
-    Enables lightweight, cross-platform Linux compilation and UI rendering.
-*   **[SQLite Engine](https://sqlite.org)** (The SQLite Team) · *[Public Domain]*
-    Powers client-side database capabilities, transaction models, and local preset builders.
-*   **[Android Open Source Project](https://android.com)** (Google LLC) · *[Apache 2.0]*
-    Base framework and assets for Gradle Android APK and AAB compilation pipelines.
-*   **[.NET Runtime](https://github.com)** (.NET Foundation) · *[MIT]*
-    Core processing logic foundation for compilers, file writing, and security wrappers.
-*   **[Inno Setup](https://jrsoftware.org)** (Jordan Russell / Martijn Laan) · *[Inno Setup License]*
-    Powers automated deployment, registry configurations, and setup generation engines.
-
-## System Toolchains, Standards & Specifications
-
-*   **Microsoft Windows SDK Utilities** (Microsoft Corporation) · *Proprietary*
-    Powers the background Authenticode code signing validation stage via `signtool.exe`.
-*   **Microsoft Win32 Subsystems & Core IPC** (Microsoft Corporation) · *Proprietary*
-    Handles native window restoration, foreground locking, and asynchronous inter-process named pipe communication.
-*   **AndroidX Libraries** (Android Open Source Project) · *[Apache 2.0]*
-    Provides native mobile interactions, lifecycle handlers, and `SwipeRefreshLayout` layout components.
-*   **[XDG Desktop Standards](https://freedesktop.org)** (freedesktop.org) · *Open Standard*
-    Governs native menu structures, launcher integrations (`.desktop`), and custom scheme handlers for Debian/Ubuntu environments.
-*   **W3C & IETF Specifications** (W3C / IETF) · *Open Standards*
-    Compliance guidelines utilized for RFC 3986 URI parsing, RFC 3161 cryptographic timestamping, and Progressive Web App manifests.
-
----
-*More components coming soon.*
+WebToApp Studio Pro is distributed as free-to-use donationware. Support ongoing development on [Buy Me a Coffee](https://buymeacoffee.com/wildcatstudio).
 
 Copyright (c) 2026 **Wildcat Studio**. All rights reserved.
