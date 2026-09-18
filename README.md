@@ -456,4 +456,7 @@ By downloading, running, or using WebToApp Studio Pro, you explicitly agree that
 
 WebToApp Studio Pro is distributed under commercial terms. For licensing details, please refer to the license agreement included with your purchase.
 
+# Credits
+Coming soon
+
 Copyright (c) 2026 **Wildcat Studio**. All rights reserved.
