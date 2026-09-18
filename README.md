@@ -27,7 +27,7 @@
 
 ## :book: Overview
 
-**WebToApp Studio Pro** is a high-performance commercial utility designed for web developers, software entrepreneurs, SaaS creators, game developers, and digital agencies. It transforms any **Live Website URL** or **Local Static HTML5/CSS/JS Folder** into standalone, production-ready software across three major operating systems:
+**WebToApp Studio Pro** is a high-performance commercial grade utility designed for web developers, software entrepreneurs, SaaS creators, game developers, and digital agencies. It transforms any **Live Website URL** or **Local Static HTML5/CSS/JS Folder** into standalone, production-ready software across three major operating systems:
 
 1. **:window: Windows Executables (`.exe`)**:
    * Powered by **Microsoft Edge WebView2** with ultra-compact resource footprint (~14 MB vs 150MB+ Electron wrappers).
@@ -453,9 +453,9 @@ By downloading, running, or using WebToApp Studio Pro, you explicitly agree that
 
 ---
 
-## :page_facing_up: Commercial License
+## :page_facing_up: Donationware License
 
-WebToApp Studio Pro is distributed under commercial terms. For licensing details, please refer to the license agreement included with your purchase.
+WebToApp Studio Pro is distributed under donationware terms.
 
 # Credits
 Coming soon
