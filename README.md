@@ -8,6 +8,8 @@
 [![Engines](https://img.shields.io/badge/Engines-WebView2%20%7C%20Android%20WebView%20%7C%20WebKitGTK-orange?style=flat-square)](#)
 [![Documentation](https://img.shields.io/badge/Documentation-Official%20Wiki-purple?style=flat-square)](https://github.com/djacidfx/webtoapp-releases/wiki)
 [![License](https://img.shields.io/badge/License-Donationware-green?style=flat-square)](https://github.com/djacidfx/webtoapp-releases/releases)
+![GitHub followers](https://img.shields.io/github/followers/djacidfx)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/djacidfx/webtoapp-releases/total)
 
 
 ---
