@@ -1,13 +1,11 @@
 {
-    "latestVersion":  "1.6.0",
-    "releaseDate":  "2026-09-18",
+    "latestVersion":  "1.6.1",
+    "releaseDate":  "2026-10-01",
     "mandatory":  false,
     "changelog":  [
-                      "Native OS Notifications Engine with W3C Notification API interception and anti-flood rate limiting",
-                      "WordPress Companion Studio generating zero-dependency WordPress companion plugins with version endpoint and smart download banners",
-                      "Donationware licensing model and ecosystem updates"
+                      "Enterprise Security Hardening: Tokenizing SqlGuard parser blocking ATTACH, DETACH, VACUUM INTO, LOAD_EXTENSION, and unauthorized PRAGMAs,Studio UI Hardening: Content-Security-Policy (CSP) enforcement, origin validation, and safe DOM node rendering,Auto-Updater Defense: Mandatory SHA-256 cryptographic verification and zip-slip directory traversal prevention,Packaging \u0026 Code Signing Safety: No-shell ArgumentList execution, CNG ephemeral key deletion, and secret cleansing in distributed configs,Multi-Platform Generator Protection: Context-correct escaping across WordPress, Android, Linux, and PWA generators,Automated Test Infrastructure: 108 unit tests, Playwright UI regression suite, and GitHub Actions CI workflow"
                   ],
-    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.6.0/WebToApp-Studio-v1.6.0.zip",
+    "updateZipUrl":  "https://github.com/djacidfx/webtoapp-releases/releases/download/v1.6.1/WebToApp-Studio-v1.6.1.zip",
     "infoUrl":  "https://github.com/djacidfx/webtoapp-releases/releases",
-    "sha256":  "1f258137a6d74715a284c331744e6ff05abd413bcbf651a184454e577570c34d"
+    "sha256":  "203e12e399db8d781bc9f408d3f4dfa012986965ba84547939597b075c5d20bf"
 }
